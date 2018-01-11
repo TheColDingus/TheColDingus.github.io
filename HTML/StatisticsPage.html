@@ -1,0 +1,267 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>My Website</title>
+	<link rel="stylesheet" href="StatisticsStyle.css">
+</head>
+
+<body>
+	<canvas id="Canvas1"></canvas>
+	<canvas id="Canvas2"></canvas>
+	<canvas id="Canvas3"></canvas>
+	<canvas id="Canvas4"></canvas>
+	<canvas id="Canvas5"></canvas>
+	<canvas id="Canvas6"></canvas>
+	<canvas id="Canvas7"></canvas>
+	<canvas id="Canvas8"></canvas>
+	<canvas id="Canvas9"></canvas>
+	<canvas id="Canvas10"></canvas>
+	<div id = "image">
+		<a href = "Home.html">
+			<img id = "logo" src = "Premier_League_Logo.PNG">
+		</a>
+	</div>
+	<div id = "header">
+		<h1>Current Premier League Statistics</h1>
+	</div>
+	<div id = "playersStatistics">
+		<h1 class = "playersTitle">Player Statistics</h1>
+	</div>
+	<div id = "goals">
+		<h1>Goals</h1>
+		<img id = "goalImage" src = "MoSalah.PNG">
+		<p class = "goals1">1. Mohamed Salah (Liverpool) |13</p>
+		<p class = "goals2">2. Harry Kane (Tottenham)</p>
+		<p class = "goalTotal2">|12</p>
+		<p class = "goals3">3. Sergio Aguero (Man City)</p>
+		<p class = "goalTotal3">|10</p>
+		<p class = "goals4">4. Romelu Lakaku (Man United)</p>
+		<p class = "goalTotal4">|9</p>
+		<p class = "goals5">5. Alvaro Morata (Chelsea)</p>
+		<p class = "goalTotal5">|9</p>
+		<p class = "goals6">6. Wayne Rooney (Everton)</p>
+		<p class = "goalTotal6">|9</p>
+		<p class = "goals7">7. Raheem Sterling (Man City)</p>
+		<p class = "goalTotal7">|9<p>
+		<p class = "goals8">8. Gabriel Jesus (Man City)</p>
+		<p class = "goalTotal8">|8</p>
+		<p class = "goals9">9. Alexandre Lacazette (Arsenal)</p>
+		<p class = "goalTotal9">|8</p>
+		<p class = "goals10">10. Jamie Vardy (Leicester)</p>
+		<p class = "goalTotal10">|7</p>
+	</div>
+	<div id = "assists">
+		<h1>Assists</h1>
+		<img id = "assistImage" src = "KevinDeBruyne.PNG">
+		<p class = "assists1">1. Kevin De Bruyne (Man City) |9</p>
+		<p class = "assists2">2. Leroy Sane (Man City)</p>
+		<p class = "assistsTotal2">|9</p>
+		<p class = "assists3">3. David Silva (Man City)</P>
+		<p class = "assistsTotal3">|8</p>
+		<p class = "assists4">4. Riyad Mahrez (Leicester)</p>
+		<p class = "assistsTotal4">|7</p>
+		<p class = "assists5">5. Paul Pogba (Man United)</p>
+		<p class = "assistsTotal5">|7</p>
+		<p class = "assists6">6. Marc Albrington (Leicester)</p>
+		<p class = "assistsTotal6">|6</p>
+		<p class = "assists7">7. Dele Alli (Tottenham)</p>
+		<P class = "assistsTotal7">|6</p>
+		<p class = "assists8">8. Cesar Azpilicueta (Chelsea)</p>
+		<p class = "assistsTotal8">|6</p>
+		<p class = "assists9">9. Phillipe Coutinho (Liverpool)</P>
+		<p class = "assistsTotal9">|6</p>
+		<p class = "assists10">10. Christian Erikson (Tottenham)</p>
+		<p class = "assistsTotal10">|6</p>
+	</div>
+	<div id = "tackles">
+		<h1>Tackles</h1>
+		<img id = "tacklesImage" src = "Ndidi.PNG">
+		<p class = "tackles1">1. Wilfred Ndidi (Leicester) |91</p>
+		<p class = "tackles2">2. Idrissa Gueye (Everton)</p>
+		<p class = "tacklesTotal2">|73</p>
+		<p class = "tackles3">3. Aaron Mooy (Huddersfield)</p>
+		<p class = "tacklesTotal3">|66</p>
+		<p class = "tackles4">4. N'Golo Kante (Chelsea)</p>
+		<p class = "tacklesTotal4">|65</p>
+		<p class = "tackles5">5. Pablo Zabaleta (West Ham)</p>
+		<p class = "tacklesTotal5">|65</p>
+		<p class = "tackles6">6. Oriol Romeu (Southampton)</p>
+		<p class = "tacklesTotal6">|61</p>
+		<p class = "tackles7">7. Christopher Schindler (Huddersfield)</p>
+		<p class = "tacklesTotal7">|59</p>
+		<p class = "tackles8">8. Kyle Naughton (Swansea)</p>
+		<p class = "tacklesTotal8">|58</p>
+		<p class = "tackles9">9. Joe Allen (Stoke)</p>
+		<p class = "tacklesTotal9">|57</p>
+		<p class = "tackles10">10. Dale Stephens (Brighton)</p>
+		<p class = "tacklesTotal10">|57</p>
+	</div>
+	<div id = "saves">
+		<h1>Saves</h1>
+		<img id = "savesImage" src = "Fabianski.PNG">
+		<p class = "savesFirst1">1. </p>
+		<p class = "savesSecond1">Lukasz</p> 
+		<p class = "savesThird1"> Fabianski</p>
+		<p class = "savesFourth1">(Swansea)</p>
+		<p class = "savesTotal1">|86</p>
+		<p class = "saves2">2. </p>
+		<p class = "savesFirst2">David</p>
+		<p class = "savesSecond2">De</p>
+		<p class = "savesThird2">Gea</p>
+		<p class = "savesFourth2">(Man</p>
+		<p class = "savesFifth2">United)</p>
+		<p class = "savesTotal2">|73</p>
+		<p class = "saves3">3. </p>
+		<p class = "savesFirst3">Jordan</p>
+		<p class = "savesSecond3">Pickford</p>
+		<p class = "savesThird3">(Everton)</p>
+		<p class = "savesTotal3">|71</p>
+		<p class = "saves4">4.</p>
+		<p class = "savesFirst4">Mat</p>
+		<p class = "savesSecond4">Ryan</p>
+		<p class = "savesThird4">(Brighton)</p>
+		<p class = "savesTotal4">|71</p>
+		<p class = "saves5">5.</P>
+		<p class = "savesFirst5">Fraser</p>
+		<p class = "savesSecond5">Forster</p>
+		<p class = "savesThird5">(Southampton)</p>
+		<p class = "savesTotal5">|68</p>
+		<p class = "saves6">6.</p>
+		<p class = "savesFirst6">Kasper</p>
+		<p class = "savesSecond6">Schmeichel</p>
+		<p class = "savesThird6">(Leicester)</p>
+		<p class = "savesTotal6">|67</p>
+		<p class = "saves7">7.</p>
+		<p class = "savesFirst7">Jack</p>
+		<p class = "savesSecond7">Butland</p>
+		<p class = "savesThird7">(Stoke)</p>
+		<p class = "savesTotal7">|66</p>
+		<p class = "saves8">8.</p>
+		<p class = "savesFirst8">Nick</p>
+		<p class = "savesSecond8">Pope</p>
+		<p class = "savesThird8">(Burnley)</p>
+		<p class = "savesTotal8">|64
+		<p class = "saves9">9.</p>
+		<p class = "savesFirst9">Asmir</p>
+		<p class = "savesSecond9">Begovic</p>
+		<p class = "savesThird9">(Bournemouth)</p>
+		<p class = "savesTotal9">|63</p>
+		<p class = "saves10">10.</p>
+		<p class = "savesFirst10">Heurelho</p>
+		<p class = "savesSecond10">Gomes</p>
+		<p class = "savesThird10">(Watford)</p>
+		<p class = "savesTotal10">|59</p>
+	</div>
+	
+	<div id = "teamsStatistics">
+		<h1 class = "teamsTitle">Team Statistics</h1>
+	</div>
+	<div id = "wins">
+		<h1>Wins</h1>
+		
+		<p class = "wins1">1. Man City |20</p>
+		<p class = "wins2">2. Chelsea</p>
+		<p class = "winsTotal2">|14</p>
+		<p class = "wins3">3. Man United</p>
+		<p class = "winsTotal3">|14</p>
+		<p class = "wins4">4. Liverpool</p>
+		<p class = "winsTotal4">|12</p>
+		<p class = "wins5">5. Tottenham</p>
+		<p class = "winsTotal5">|12</p>
+		<p class = "wins6">6. Arsenal</p>
+		<p class = "winsTotal6">|11</p>
+		<p class = "wins7">7. Burnley</p>
+		<p class = "winsTotal7">|9</p>
+		<p class = "wins8">8. Leicester</p>
+		<p class = "winsTotal8">|8</p>
+		<p class = "wins9">9. Everton</p>
+		<p class = "winsTotal9">|7</p>
+		<p class = "wins10">10. Watford</p>
+		<p class = "winsTotal10">|7</p>
+	</div>
+	<div id = "losses">
+		<h1>Losses</h1>
+		
+		<p class = "losses1">1. Swansea |14</p>
+		<p class = "losses2">2. Newcastle</p>
+		<p class = "lossesTotal2">|12</p>
+		<p class = "losses3">3. Stoke</p>
+		<p class = "lossesTotal3">|12</p>
+		<p class = "losses4">4. Bournemouth</p>
+		<p class = "lossesTotal4">|11</p>
+		<p class = "losses5">5. Watford</p>
+		<p class = "lossesTotal5">|11</p>
+		<p class = "losses6">6. Crystal Palace</p>
+		<p class = "lossesTotal6">|10</p>
+		<p class = "losses7">7. Huddersfield</p>
+		<p class = "lossesTotal7">|10</p>
+		<p class = "losses8">8. Southampton</p>
+		<p class = "lossesTotal8">|10</p>
+		<p class = "losses9">9. West Brom</p>
+		<p class = "lossesTotal9">|10</p>
+		<p class = "losses10">10. West Ham</p>
+		<p class = "lossesTotal10">|10</p>
+	</div>
+	<div id = "teamGoals">
+		<h1>Goals</h1>
+		
+		<p class = "teamGoals1">1. Man City |64</p>
+		<p class = "teamGoals2">2. Liverpool</p>
+		<p class = "teamGoalsTotal2">|50</p>
+		<p class = "teamGoals3">3. Man United</p>
+		<p class = "teamGoalsTotal3">|45</p>
+		<p class = "teamGoals4">4. Tottenham</p>
+		<p class = "teamGoalsTotal4">|42</p>
+		<p class = "teamGoals5">5. Chelsea</p>
+		<p class = "teamGoalsTotal5">|41</p>
+		<p class = "teamGoals6">6. Arsenal</p>
+		<p class = "teamGoalsTotal6">|40</p>
+		<p class = "teamGoals7">7. Leicester</p>
+		<p class = "teamGoalsTotal7">|34</p>
+		<p class = "teamGoals8">8. Watford</p>
+		<p class = "teamGoalsTotal8">|31</p>
+		<p class = "teamGoals9">9. Everton</p>
+		<p class = "teamGoalsTotal9">|25</p>
+		<p class = "teamGoals10">10. West Ham</p>
+		<p class = "teamGoalsTotal10">|25</p>
+	</div>
+	<div id = "cleanSheets">
+		<h1>Clean Sheets</h1>
+		
+		<p class = "cleanSheets1">1.</p>
+		<p class = "cleanSheetsFirst1">Man</p>
+		<p class = "cleanSheetsSecond1">United</p>
+		<p class = "cleanSheetsTotal1">|12</p>
+		<p class = "cleanSheets2">2.</p>
+		<p class = "cleanSheetsFirst2">Chelsea</p>
+		<p class = "cleanSheetsTotal2">|11</p>
+		<p class = "cleanSheets3">3.</p>
+		<p class = "cleanSheetsFirst3">Man</p>
+		<P class = "cleanSheetsSecond3">City</p>
+		<p class = "cleanSheetsTotal3">|11</p>
+		<p class = "cleanSheets4">4.</p>
+		<p class = "cleanSheetsFirst4">Burnley</p>
+		<p class = "cleanSheetsTotal4">|10</p>
+		<p class = "cleanSheets5">5.</p>
+		<p class = "cleanSheetsFirst5">Arsenal</p>
+		<p class = "cleanSheetsTotal5">|9</p>
+		<p class = "cleanSheets6">6.</p>
+		<p class = "cleanSheetsFirst6">Liverpool</p>
+		<p class = "cleanSheetsTotal6">|9</p>
+		<p class = "cleanSheets7">7.</p>
+		<p class = "cleanSheetsFirst7">Tottenham</p>
+		<p class = "cleanSheetsTotal7">|9</p>
+		<p class = "cleanSheets8">8.</p>
+		<p class = "cleanSheetsFirst8">Brighton</p>
+		<p class = "cleanSheetsTotal8">|8</p>
+		<p class = "cleanSheets9">9.</p>
+		<p class = "cleanSheetsFirst9">Huddersfield</p>
+		<p class = "cleanSheetsTotal9">|7</p>
+		<p class = "cleanSheets10">10.</p>
+		<p class = "cleanSheetsFirst10">West</p>
+		<p class = "cleanSheetsSecond10">Ham</p>
+		<p class = "cleanSheetsTotal10">|6</p>
+	</div>
+</body>
+</html>

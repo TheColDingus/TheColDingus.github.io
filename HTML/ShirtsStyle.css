@@ -1,0 +1,708 @@
+body{
+	background-color: #792464;
+	margin: 0;
+	padding: 0;
+	text-align: centre;
+	font-family: Helvetica, Arial, Gotham;
+}
+
+#logo{
+	position: absolute;
+	width: 15%;
+	top: 2rem;
+	left: 1.5rem;
+}
+
+#header{
+	position: absolute;
+	text-align: centre;
+	padding: 10;
+	color: white;
+	top: 2.2rem;
+	left: 15rem;
+}
+
+#Canvas1 {
+	position: absolute;
+	background-color: #e73863;
+	width: 62rem;
+	height: 8rem;
+	border-radius: 20%;
+	left: 1rem;
+	top: 1rem;
+	border-color: white;
+	border-width: 5px;
+}
+
+#Canvas2 {
+	position: absolute;
+	background-color: white;
+	width: 64rem;
+	height: 30rem;
+	top: 12rem;
+	left: 10rem;
+}
+
+#Canvas3 {
+	position: absolute;
+	background-color: #792464;
+	border-top: 5px solid #e73863;
+	border-bottom: 5px solid #e73863;
+	width: 84.3rem;
+	height: 10rem;
+	top: 48rem;
+	left: 0rem;
+}
+
+#Canvas4 {
+	position: absolute;
+	background-color: #792464;
+	border-right: 5px solid #e73863;
+	border-left: 5px solid #e73863;
+	border-top: 5px solid #e73863;
+	border-bottom: 5px solid #e73863;
+	width: 16rem;
+	height: 10rem;
+	top: 48rem;
+	left: 30rem;
+}
+
+#Canvas5 {
+	position: absolute;
+	background-color: #792464;
+	border-left: 5px solid #e73863;
+	border-top: 5px solid #e73863;
+	border-bottom: 5px solid #e73863;
+	width: 5rem;
+	height: 10rem;
+	top: 48rem;
+	left: 65rem;
+}
+
+#Canvas6 {
+	position: absolute;
+	background-color: #792464;
+	border-right: 5px solid #e73863;
+	border-top: 5px solid #e73863;
+	border-bottom: 5px solid #e73863;
+	width: 9.7rem;
+	height: 7rem;
+	top: 40.67rem;
+	left: 0rem;
+}
+
+#price {
+	position: absolute;
+	left: 1rem;
+	top: 42rem;
+	color: white;
+}
+
+#priceTotal {
+	position: absolute;
+	left: 1rem;
+	top: 43rem;
+	color: white;
+	visibility: hidden;
+}
+
+#sizes u {
+	position: absolute;
+	color: white;
+	top: 49rem;
+	left: 1rem;
+}
+
+#xSmall {
+	position: absolute;
+	top: 50rem;
+	left: 5rem;
+}
+
+#size1 {
+	position: absolute;
+	top: 49.05rem;
+	left: 6.5rem;
+	color: white;
+}
+
+#small {
+	position: absolute;
+	top: 50rem;
+	left: 13rem;
+}
+
+#size2 {
+	position: absolute;
+	top: 49.05rem;
+	left: 14.5rem;
+	color: white;
+}
+
+#medium {
+	position: absolute;
+	top: 50rem;
+	left: 18.5rem;
+}
+
+#size3 {
+	position: absolute;
+	top: 49.05rem;
+	left: 20rem;
+	color: white;
+}
+
+#large {
+	position: absolute;
+	top: 54rem;
+	left: 5rem;
+}
+
+#size4 {
+	position: absolute;
+	top: 53.05rem;
+	left: 6.5rem;
+	color: white;
+}
+
+#xLarge {
+	position: absolute;
+	top: 54rem;
+	left: 13rem;
+}
+
+#size5 {
+	position: absolute;
+	top: 53.05rem;
+	left: 14.5rem;
+	color: white;
+}
+
+#gender u {
+	position: absolute;
+	color: white;
+	top: 49rem;
+	left: 31rem;
+}
+
+#male {
+	position: absolute;
+	top: 51.5rem;
+	left: 37.5rem;
+}
+
+#gender1 {
+	position: absolute;
+	color: white;
+	top: 50.55rem;
+	left: 39rem;
+}
+
+#female {
+	position: absolute;
+	top: 55rem;
+	left: 37.5rem;
+}
+
+#gender2 {
+	position: absolute;
+	color: white;
+	top: 54.05rem;
+	left: 39rem;
+}
+
+#sleeveLength u {
+	position: absolute;
+	color: white;
+	top: 49rem;
+	left: 47.3rem;
+}
+
+#short {
+	position: absolute;
+	top: 51.5rem;
+	left: 57rem;
+}
+
+#sleeve1 {
+	position: absolute;
+	color: white;
+	top: 50.55rem;
+	left: 58.5rem;
+}
+
+#long {
+	position: absolute;
+	top: 55rem;
+	left: 57rem;
+}
+
+#sleeve2 {
+	position: absolute;
+	color: white;
+	top: 54.05rem;
+	left: 58.5rem;
+}
+
+#shirtDetails u {
+	position: absolute;
+	color: white;
+	top: 49rem;
+	left: 66rem;
+}
+
+#name { 
+	position: absolute;
+	color: white;
+	top: 52rem;
+	left: 66rem;
+}
+
+#name1 { 
+	position: absolute;
+	color: white;
+	top: 49.5rem;
+	left: 66rem;
+}
+
+#number { 
+	position: absolute;
+	color: white;
+	top: 55rem;
+	left: 66rem;
+}
+
+#number1 { 
+	position: absolute;
+	color: white;
+	top: 52.5rem;
+	left: 66rem;
+}
+
+#club u {
+	position: absolute;
+	top: 60rem;
+	left: 1rem;
+	color: white;
+}
+
+#arsenalShirt {
+	position: absolute;
+	top: 13.5rem;
+	left: 30rem;
+	width: 25rem;
+	height: 27rem;
+	visibility: hidden;
+}
+
+#bournemouthShirt {
+	position: absolute;
+	top: 13.5rem;
+	left: 30rem;
+	width: 25rem;
+	height: 27rem;
+	visibility: hidden;
+}
+
+#brightonShirt {
+	position: absolute;
+	top: 13.5rem;
+	left: 30rem;
+	width: 25rem;
+	height: 27rem;
+	visibility: hidden;
+}
+
+#burnleyShirt {
+	position: absolute;
+	top: 13.5rem;
+	left: 30rem;
+	width: 25rem;
+	height: 27rem;
+	visibility: hidden;
+}
+
+#chelseaShirt {
+	position: absolute;
+	top: 13.5rem;
+	left: 32rem;
+	width: 20rem;
+	height: 27rem;
+	visibility: hidden;
+}
+
+#crystalPalaceShirt {
+	position: absolute;
+	top: 13.5rem;
+	left: 30rem;
+	width: 25rem;
+	height: 27rem;
+	visibility: hidden;
+}
+
+#evertonShirt {
+	position: absolute;
+	top: 13.5rem;
+	left: 30rem;
+	width: 25rem;
+	height: 27rem;
+	visibility: hidden;
+}
+
+#huddersfieldShirt {
+	position: absolute;
+	top: 13.5rem;
+	left: 27rem;
+	width: 30rem;
+	height: 27rem;
+	visibility: hidden;
+}
+
+#leicesterShirt {
+	position: absolute;
+	top: 13.5rem;
+	left: 30rem;
+	width: 25rem;
+	height: 27rem;
+	visibility: hidden;
+}
+
+#liverpoolShirt {
+	position: absolute;
+	top: 13.5rem;
+	left: 30rem;
+	width: 25rem;
+	height: 27rem;
+	visibility: hidden;
+}
+
+#manCityShirt {
+	position: absolute;
+	top: 13.5rem;
+	left: 30rem;
+	width: 25rem;
+	height: 27rem;
+	visibility: hidden;
+}
+
+#manUnitedShirt {
+	position: absolute;
+	top: 13.5rem;
+	left: 30rem;
+	width: 25rem;
+	height: 27rem;
+	visibility: hidden;
+}
+
+#newcastleShirt {
+	position: absolute;
+	top: 13.5rem;
+	left: 30rem;
+	width: 25rem;
+	height: 27rem;
+	visibility: hidden;
+}
+
+#southamptonShirt {
+	position: absolute;
+	top: 13.5rem;
+	left: 30rem;
+	width: 25rem;
+	height: 27rem;
+	visibility: hidden;
+}
+
+#stokeShirt {
+	position: absolute;
+	top: 13.5rem;
+	left: 30rem;
+	width: 25rem;
+	height: 27rem;
+	visibility: hidden;
+}
+
+#swanseaShirt {
+	position: absolute;
+	top: 13.5rem;
+	left: 30rem;
+	width: 25rem;
+	height: 27rem;
+	visibility: hidden;
+}
+
+#tottenhamShirt {
+	position: absolute;
+	top: 13.5rem;
+	left: 30rem;
+	width: 25rem;
+	height: 27rem;
+	visibility: hidden;
+}
+
+#watfordShirt {
+	position: absolute;
+	top: 13.5rem;
+	left: 30rem;
+	width: 25rem;
+	height: 27rem;
+	visibility: hidden;
+}
+
+#westBromShirt {
+	position: absolute;
+	top: 13.5rem;
+	left: 30rem;
+	width: 25rem;
+	height: 27rem;
+	visibility: hidden;
+}
+
+#westHamShirt {
+	position: absolute;
+	top: 13.5rem;
+	left: 30rem;
+	width: 25rem;
+	height: 27rem;
+	visibility: hidden;
+}
+
+#arsenalButton {
+	position: absolute;
+	top: 63rem;
+	left: 3rem;
+	width: 7rem;
+	height: 5rem;
+	color: white;
+	background-color: #e73863;
+	border-color: #e73863;
+	border-radius: 10%;
+}
+
+#bournemouthButton {
+	position: absolute;
+	top: 63rem;
+	left: 11rem;
+	width: 7rem;
+	height: 5rem;
+	color: white;
+	background-color: #e73863;
+	border-color: #e73863;
+	border-radius: 10%;
+}
+
+#brightonButton {
+	position: absolute;
+	top: 63rem;
+	left: 19rem;
+	width: 7rem;
+	height: 5rem;
+	color: white;
+	background-color: #e73863;
+	border-color: #e73863;
+	border-radius: 10%;
+}
+
+#burnleyButton {
+	position: absolute;
+	top: 63rem;
+	left: 27rem;
+	width: 7rem;
+	height: 5rem;
+	color: white;
+	background-color: #e73863;
+	border-color: #e73863;
+	border-radius: 10%;
+}
+
+#chelseaButton {
+	position: absolute;
+	top: 63rem;
+	left: 35rem;
+	width: 7rem;
+	height: 5rem;
+	color: white;
+	background-color: #e73863;
+	border-color: #e73863;
+	border-radius: 10%;
+}
+
+#crystalPalaceButton {
+	position: absolute;
+	top: 63rem;
+	left: 43rem;
+	width: 7rem;
+	height: 5rem;
+	color: white;
+	background-color: #e73863;
+	border-color: #e73863;
+	border-radius: 10%;
+}
+
+#evertonButton {
+	position: absolute;
+	top: 63rem;
+	left: 51rem;
+	width: 7rem;
+	height: 5rem;
+	color: white;
+	background-color: #e73863;
+	border-color: #e73863;
+	border-radius: 10%;
+}
+
+#huddersfieldButton {
+	position: absolute;
+	top: 63rem;
+	left: 59rem;
+	width: 7rem;
+	height: 5rem;
+	color: white;
+	background-color: #e73863;
+	border-color: #e73863;
+	border-radius: 10%;
+}
+
+#leicesterButton {
+	position: absolute;
+	top: 63rem;
+	left: 67rem;
+	width: 7rem;
+	height: 5rem;
+	color: white;
+	background-color: #e73863;
+	border-color: #e73863;
+	border-radius: 10%;
+}
+
+#liverpoolButton {
+	position: absolute;
+	top: 63rem;
+	left: 75rem;
+	width: 7rem;
+	height: 5rem;
+	color: white;
+	background-color: #e73863;
+	border-color: #e73863;
+	border-radius: 10%;
+}
+
+#manCityButton {
+	position: absolute;
+	top: 69rem;
+	left: 3rem;
+	width: 7rem;
+	height: 5rem;
+	color: white;
+	background-color: #e73863;
+	border-color: #e73863;
+	border-radius: 10%;
+	margin-bottom: 3rem;
+}
+
+#manUnitedButton {
+	position: absolute;
+	top: 69rem;
+	left: 11rem;
+	width: 7rem;
+	height: 5rem;
+	color: white;
+	background-color: #e73863;
+	border-color: #e73863;
+	border-radius: 10%;
+}
+
+#newcastleButton {
+	position: absolute;
+	top: 69rem;
+	left: 19rem;
+	width: 7rem;
+	height: 5rem;
+	color: white;
+	background-color: #e73863;
+	border-color: #e73863;
+	border-radius: 10%;
+}
+
+#southamptonButton {
+	position: absolute;
+	top: 69rem;
+	left: 27rem;
+	width: 7rem;
+	height: 5rem;
+	color: white;
+	background-color: #e73863;
+	border-color: #e73863;
+	border-radius: 10%;
+}
+
+#stokeButton {
+	position: absolute;
+	top: 69rem;
+	left: 35rem;
+	width: 7rem;
+	height: 5rem;
+	color: white;
+	background-color: #e73863;
+	border-color: #e73863;
+	border-radius: 10%;
+}
+
+#swanseaButton {
+	position: absolute;
+	top: 69rem;
+	left: 43rem;
+	width: 7rem;
+	height: 5rem;
+	color: white;
+	background-color: #e73863;
+	border-color: #e73863;
+	border-radius: 10%;
+}
+
+#tottenhamButton {
+	position: absolute;
+	top: 69rem;
+	left: 51rem;
+	width: 7rem;
+	height: 5rem;
+	color: white;
+	background-color: #e73863;
+	border-color: #e73863;
+	border-radius: 10%;
+}
+
+#watfordButton {
+	position: absolute;
+	top: 69rem;
+	left: 59rem;
+	width: 7rem;
+	height: 5rem;
+	color: white;
+	background-color: #e73863;
+	border-color: #e73863;
+	border-radius: 10%;
+}
+
+#westBromButton {
+	position: absolute;
+	top: 69rem;
+	left: 67rem;
+	width: 7rem;
+	height: 5rem;
+	color: white;
+	background-color: #e73863;
+	border-color: #e73863;
+	border-radius: 10%;
+}
+
+#westHamButton {
+	position: absolute;
+	top: 69rem;
+	left: 75rem;
+	width: 7rem;
+	height: 5rem;
+	color: white;
+	background-color: #e73863;
+	border-color: #e73863;
+	border-radius: 10%;
+}

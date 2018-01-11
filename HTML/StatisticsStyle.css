@@ -1,0 +1,1659 @@
+body{
+	background-color: #792464;
+	margin: 0;
+	padding: 0;
+	text-align: centre;
+	font-family: Helvetica, Arial, Gotham;
+}
+
+#header{
+	position: absolute;
+	text-align: centre;
+	padding: 10;
+	color: white;
+	top: 2.2rem;
+	left: 15rem;
+}
+
+#logo{
+	position: absolute;
+	width: 15%;
+	top: 2rem;
+	left: 1.5rem;
+}
+
+#Canvas1 {
+	position: absolute;
+	background-color: #e73863;
+	width: 47rem;
+	height: 8rem;
+	border-radius: 20%;
+	left: 1rem;
+	top: 1rem;
+	border-color: white;
+	border-width: 5px;
+}
+
+#Canvas2 {
+	position: absolute;
+	background-color: #e73863;
+	width: 28.1rem;
+	height: 25rem;
+	border-radius: 10%;
+	left: 5rem;
+	top: 15rem;
+	border-color: white;
+	border-width: 5px;
+	margin-bottom: 10rem;
+}
+
+#Canvas3 {
+	position: absolute;
+	background-color: #e73863;
+	width: 28.1rem;
+	height: 25rem;
+	border-radius: 10%;
+	left: 35rem;
+	top: 15rem;
+	border-color: white;
+	border-width: 5px;
+	margin-bottom: 10rem;
+}
+
+#Canvas4 {
+	position: absolute;
+	background-color: #e73863;
+	width: 28.1rem;
+	height: 25rem;
+	border-radius: 10%;
+	left: 65rem;
+	top: 15rem;
+	border-color: white;
+	border-width: 5px;
+	margin-bottom: 10rem;
+}
+
+#Canvas5 {
+	position: absolute;
+	background-color: #e73863;
+	width: 28.1rem;
+	height: 25rem;
+	border-radius: 10%;
+	left: 95rem;
+	top: 15rem;
+	border-color: white;
+	border-width: 5px;
+	margin-bottom: 10rem;
+	margin-right: 20rem;
+}
+
+.playersTitle {
+	position: absolute;
+	text-decoration: underline;
+	color: white;
+	left: 6rem;
+	top: 9.5rem;
+}
+
+#goals h1 {
+	position: absolute;
+	text-decoration: underline;
+	color: white;
+	top: 15rem;
+	left: 6rem;
+}
+
+#assists h1 {
+	position: absolute;
+	text-decoration: underline;
+	color: white;
+	top: 15rem;
+	left: 36rem;
+}
+
+#tackles h1 {
+	position: absolute;
+	text-decoration: underline;
+	color: white;
+	top: 15rem;
+	left: 66rem;
+}
+
+#saves h1 {
+	position: absolute;
+	text-decoration: underline;
+	color: white;
+	top: 15rem;
+	left: 96rem;
+}
+
+#goals img{
+	position: absolute;
+	top: 100rem;
+	height: 24%;
+	width: 15%;
+	top: 15rem;
+	left: 21rem;
+}
+
+#goals .goals1{
+	position: absolute;
+	color: white;
+	left: 6rem;
+	top: 22rem;
+}
+
+
+#goals .goals2{
+	position: absolute;
+	color: white;
+	left: 6rem;
+	top: 25rem;
+}
+
+#goals .goalTotal2{
+	position: absolute;
+	color: white;
+	top: 25rem;
+	left: 31rem;
+}
+
+#goals .goals3{
+	position: absolute;
+	color: white;
+	left: 6rem;
+	top: 26.5rem;
+}
+
+#goals .goalTotal3{
+	position: absolute;
+	color: white;
+	top: 26.5rem;
+	left: 31rem;
+}
+
+#goals .goals4{
+	position: absolute;
+	color: white;
+	left: 6rem;
+	top: 28rem;
+}
+
+#goals .goalTotal4{
+	position: absolute;
+	color: white;
+	top: 28rem;
+	left: 31rem;
+}
+
+#goals .goals5{
+	position: absolute;
+	color: white;
+	left: 6rem;
+	top: 29.5rem;
+}
+
+#goals .goalTotal5{
+	position: absolute;
+	color: white;
+	top: 29.5rem;
+	left: 31rem;
+}
+
+#goals .goals6{
+	position: absolute;
+	color: white;
+	left: 6rem;
+	top: 31rem;
+}
+
+#goals .goalTotal6{
+	position: absolute;
+	color: white;
+	top: 31rem;
+	left: 31rem;
+}
+
+#goals .goals7{
+	position: absolute;
+	color: white;
+	left: 6rem;
+	top: 32.5rem;
+}
+
+#goals .goalTotal7{
+	position: absolute;
+	color: white;
+	top: 32.5rem;
+	left: 31rem;
+}
+
+#goals .goals8{
+	position: absolute;
+	color: white;
+	left: 6rem;
+	top: 34rem;
+}
+
+#goals .goalTotal8{
+	position: absolute;
+	color: white;
+	top: 34rem;
+	left: 31rem;
+}
+
+#goals .goals9{
+	position: absolute;
+	color: white;
+	left: 6rem;
+	top: 35.5rem;
+}
+
+#goals .goalTotal9{
+	position: absolute;
+	color: white;
+	top: 35.5rem;
+	left: 31rem;
+}
+
+#goals .goals10{
+	position: absolute;
+	color: white;
+	left: 6rem;
+	top: 37rem;
+}
+
+#goals .goalTotal10{
+	position: absolute;
+	color: white;
+	top: 37rem;
+	left: 31rem;
+}
+
+#assists img{
+	position: absolute;
+	top: 100rem;
+	height: 24%;
+	width: 15%;
+	top: 15rem;
+	left: 50.8rem;
+}
+
+#assists .assists1{
+	position: absolute;
+	color: white;
+	left: 36rem;
+	top: 22rem;
+}
+
+#assists .assists2{
+	position: absolute;
+	color: white;
+	left: 36rem;
+	top: 25rem;
+}
+
+#assists .assistsTotal2{
+	position: absolute;
+	color: white;
+	top: 25rem;
+	left: 61rem;
+}
+
+#assists .assists3{
+	position: absolute;
+	color: white;
+	left: 36rem;
+	top: 26.5rem;
+}
+
+#assists .assistsTotal3{
+	position: absolute;
+	color: white;
+	top: 26.5rem;
+	left: 61rem;
+}
+
+#assists .assists4{
+	position: absolute;
+	color: white;
+	left: 36rem;
+	top: 28rem;
+}
+
+#assists .assistsTotal4{
+	position: absolute;
+	color: white;
+	top: 28rem;
+	left: 61rem;
+}
+
+#assists .assists5{
+	position: absolute;
+	color: white;
+	left: 36rem;
+	top: 29.5rem;
+}
+
+#assists .assistsTotal5{
+	position: absolute;
+	color: white;
+	top: 29.5rem;
+	left: 61rem;
+}
+
+#assists .assists6{
+	position: absolute;
+	color: white;
+	left: 36rem;
+	top: 31rem;
+}
+
+#assists .assistsTotal6{
+	position: absolute;
+	color: white;
+	top: 31rem;
+	left: 61rem;
+}
+
+#assists .assists7{
+	position: absolute;
+	color: white;
+	left: 36rem;
+	top: 32.5rem;
+}
+
+#assists .assistsTotal7{
+	position: absolute;
+	color: white;
+	top: 32.5rem;
+	left: 61rem;
+}
+
+#assists .assists8{
+	position: absolute;
+	color: white;
+	left: 36rem;
+	top: 34rem;
+}
+
+#assists .assistsTotal8{
+	position: absolute;
+	color: white;
+	top: 34rem;
+	left: 61rem;
+}
+
+#assists .assists9{
+	position: absolute;
+	color: white;
+	left: 36rem;
+	top: 35.5rem;
+}
+
+#assists .assistsTotal9{
+	position: absolute;
+	color: white;
+	top: 35.5rem;
+	left: 61rem;
+}
+
+#assists .assists10{
+	position: absolute;
+	color: white;
+	left: 36rem;
+	top: 37rem;
+}
+
+#assists .assistsTotal10{
+	position: absolute;
+	color: white;
+	top: 37rem;
+	left: 61rem;
+}
+
+#tackles img{
+	position: absolute;
+	top: 100rem;
+	height: 24%;
+	width: 15%;
+	top: 15rem;
+	left: 81.3rem;
+}
+
+#tackles .tackles1{
+	position: absolute;
+	color: white;
+	left: 66rem;
+	top: 22rem;
+}
+
+#tackles .tackles2{
+	position: absolute;
+	color: white;
+	left: 66rem;
+	top: 25rem;
+}
+
+#tackles .tacklesTotal2{
+	position: absolute;
+	color: white;
+	top: 25rem;
+	left: 90rem;
+}
+
+#tackles .tackles3{
+	position: absolute;
+	color: white;
+	left: 66rem;
+	top: 26.5rem;
+}
+
+#tackles .tacklesTotal3{
+	position: absolute;
+	color: white;
+	top: 26.5rem;
+	left: 90rem;
+}
+
+#tackles .tackles4{
+	position: absolute;
+	color: white;
+	left: 66rem;
+	top: 28rem;
+}
+
+#tackles .tacklesTotal4{
+	position: absolute;
+	color: white;
+	top: 28rem;
+	left: 90rem;
+}
+
+#tackles .tackles5{
+	position: absolute;
+	color: white;
+	left: 66rem;
+	top: 29.5rem;
+}
+
+#tackles .tacklesTotal5{
+	position: absolute;
+	color: white;
+	top: 29.5rem;
+	left: 90rem;
+}
+
+#tackles .tackles6{
+	position: absolute;
+	color: white;
+	left: 66rem;
+	top: 31rem;
+}
+
+#tackles .tacklesTotal6{
+	position: absolute;
+	color: white;
+	top: 31rem;
+	left: 90rem;
+}
+
+#tackles .tackles7{
+	position: absolute;
+	color: white;
+	left: 66rem;
+	top: 32.5rem;
+}
+
+#tackles .tacklesTotal7{
+	position: absolute;
+	color: white;
+	top: 32.5rem;
+	left: 90rem;
+}
+
+#tackles .tackles8{
+	position: absolute;
+	color: white;
+	left: 66rem;
+	top: 34rem;
+}
+
+#tackles .tacklesTotal8{
+	position: absolute;
+	color: white;
+	top: 34rem;
+	left: 90rem;
+}
+
+#tackles .tackles9{
+	position: absolute;
+	color: white;
+	left: 66rem;
+	top: 35.5rem;
+}
+
+#tackles .tacklesTotal9{
+	position: absolute;
+	color: white;
+	top: 35.5rem;
+	left: 90rem;
+}
+
+#tackles .tackles10{
+	position: absolute;
+	color: white;
+	left: 66rem;
+	top: 37rem;
+}
+
+#tackles .tacklesTotal10{
+	position: absolute;
+	color: white;
+	top: 37rem;
+	left: 90rem;
+}
+
+#saves img{
+	position: absolute;
+	top: 100rem;
+	height: 24%;
+	width: 15%;
+	top: 15rem;
+	left: 111rem;
+}
+
+#saves .savesFirst1{
+	position: absolute;
+	color: white;
+	left: 96rem;
+	top: 22rem;
+}
+
+#saves .savesSecond1{
+	position: absolute;
+	color: white;
+	left: 97rem;
+	top: 22rem;
+}
+
+#saves .savesThird1{
+	position: absolute;
+	color: white;
+	left: 100.5rem;
+	top: 22rem;
+}
+
+#saves .savesFourth1{
+	position: absolute;
+	color: white;
+	left: 105rem;
+	top: 22rem;
+}
+
+#saves .savesTotal1{
+	position: absolute;
+	color: white;
+	left: 110rem;
+	top: 22rem;
+}
+
+#saves .saves2{
+	position: absolute;
+	color: white;
+	left: 96rem;
+	top: 25rem;
+}
+
+#saves .savesFirst2{
+	position: absolute;
+	color: white;
+	left: 97rem;
+	top: 25rem;
+}
+
+#saves .savesSecond2{
+	position: absolute;
+	color: white;
+	left: 99.7rem;
+	top: 25rem;
+}
+
+#saves .savesThird2{
+	position: absolute;
+	color: white;
+	left: 101.2rem;
+	top: 25rem;
+}
+
+#saves .savesFourth2{
+	position: absolute;
+	color: white;
+	left: 103.2rem;
+	top: 25rem;
+}
+
+#saves .savesFifth2{
+	position: absolute;
+	color: white;
+	left: 105.6rem;
+	top: 25rem;
+}
+
+#saves .savesTotal2{
+	position: absolute;
+	color: white;
+	left: 120rem;
+	top: 25rem;
+}
+
+#saves .saves3{
+	position: absolute;
+	color: white;
+	left: 96rem;
+	top: 26.5rem;
+}
+
+#saves .savesFirst3{
+	position: absolute;
+	color: white;
+	left: 97rem;
+	top: 26.5rem;
+}
+
+#saves .savesSecond3{
+	position: absolute;
+	color: white;
+	left: 100.2rem;
+	top: 26.5rem;
+}
+
+#saves .savesThird3{
+	position: absolute;
+	color: white;
+	left: 104rem;
+	top: 26.5rem;
+}
+
+#saves .savesTotal3{
+	position: absolute;
+	color: white;
+	top: 26.5rem;
+	left: 120rem;
+}
+
+#saves .saves4{
+	position: absolute;
+	color: white;
+	left: 96rem;
+	top: 28rem;
+}
+
+#saves .savesFirst4{
+	position: absolute;
+	color: white;
+	left: 97rem;
+	top: 28rem;
+}
+
+#saves .savesSecond4{
+	position: absolute;
+	color: white;
+	left: 99rem;
+	top: 28rem;
+}
+
+#saves .savesThird4{
+	position: absolute;
+	color: white;
+	left: 101.5rem;
+	top: 28rem;
+}
+
+#saves .savesTotal4{
+	position: absolute;
+	color: white;
+	top: 28rem;
+	left: 120rem;
+}
+
+#saves .saves5{
+	position: absolute;
+	color: white;
+	left: 96rem;
+	top: 29.5rem;
+}
+
+#saves .savesFirst5{
+	position: absolute;
+	color: white;
+	left: 97rem;
+	top: 29.5rem;
+}
+
+#saves .savesSecond5{
+	position: absolute;
+	color: white;
+	left: 100.2rem;
+	top: 29.5rem;
+}
+
+#saves .savesThird5{
+	position: absolute;
+	color: white;
+	left: 103.5rem;
+	top: 29.5rem;
+}
+
+#saves .savesTotal5{
+	position: absolute;
+	color: white;
+	top: 29.5rem;
+	left: 120rem;
+}
+
+#saves .saves6{
+	position: absolute;
+	color: white;
+	left: 96rem;
+	top: 31rem;
+}
+
+#saves .savesFirst6{
+	position: absolute;
+	color: white;
+	left: 97rem;
+	top: 31rem;
+}
+
+#saves .savesSecond6{
+	position: absolute;
+	color: white;
+	left: 100.4rem;
+	top: 31rem;
+}
+
+#saves .savesThird6{
+	position: absolute;
+	color: white;
+	left: 105.7rem;
+	top: 31rem;
+}
+
+#saves .savesTotal6{
+	position: absolute;
+	color: white;
+	top: 31rem;
+	left: 120rem;
+}
+
+#saves .saves7{
+	position: absolute;
+	color: white;
+	left: 96rem;
+	top: 32.5rem;
+}
+
+#saves .savesFirst7{
+	position: absolute;
+	color: white;
+	left: 97rem;
+	top: 32.5rem;
+}
+
+#saves .savesSecond7{
+	position: absolute;
+	color: white;
+	left: 99.3rem;
+	top: 32.5rem;
+}
+
+#saves .savesThird7{
+	position: absolute;
+	color: white;
+	left: 103rem;
+	top: 32.5rem;
+}
+
+#saves .savesTotal7{
+	position: absolute;
+	color: white;
+	top: 32.5rem;
+	left: 120rem;
+}
+
+#saves .saves8{
+	position: absolute;
+	color: white;
+	left: 96rem;
+	top: 34rem;
+}
+
+#saves .savesFirst8{
+	position: absolute;
+	color: white;
+	left: 97rem;
+	top: 34rem;
+}
+
+#saves .savesSecond8{
+	position: absolute;
+	color: white;
+	left: 99.3rem;
+	top: 34rem;
+}
+
+#saves .savesThird8{
+	position: absolute;
+	color: white;
+	left: 101.9rem;
+	top: 34rem;
+}
+
+#saves .savesTotal8{
+	position: absolute;
+	color: white;
+	top: 34rem;
+	left: 120rem;
+}
+
+#saves .saves9{
+	position: absolute;
+	color: white;
+	left: 96rem;
+	top: 35.5rem;
+}
+
+#saves .savesFirst9{
+	position: absolute;
+	color: white;
+	left: 97rem;
+	top: 35.5rem;
+}
+
+#saves .savesSecond9{
+	position: absolute;
+	color: white;
+	left: 99.8rem;
+	top: 35.5rem;
+}
+
+#saves .savesThird9{
+	position: absolute;
+	color: white;
+	left: 103.5rem;
+	top: 35.5rem;
+}
+
+#saves .savesTotal9{
+	position: absolute;
+	color: white;
+	top: 35.5rem;
+	left: 120rem;
+}
+
+#saves .saves10{
+	position: absolute;
+	color: white;
+	left: 96rem;
+	top: 37rem;
+}
+
+#saves .savesFirst10{
+	position: absolute;
+	color: white;
+	left: 97.5rem;
+	top: 37rem;
+}
+
+#saves .savesSecond10{
+	position: absolute;
+	color: white;
+	left: 101.8rem;
+	top: 37rem;
+}
+
+#saves .savesThird10{
+	position: absolute;
+	color: white;
+	left: 105.3rem;
+	top: 37rem;
+}
+
+#saves .savesTotal10{
+	position: absolute;
+	color: white;
+	top: 37rem;
+	left: 120rem;
+}
+
+#Canvas6 {
+	position: absolute;
+	background-color: #e73863;
+	width: 28.1rem;
+	height: 25rem;
+	border-radius: 10%;
+	left: 5rem;
+	top: 46rem;
+	border-color: white;
+	border-width: 5px;
+	margin-bottom: 10rem;
+}
+
+#Canvas7 {
+	position: absolute;
+	background-color: #e73863;
+	width: 28.1rem;
+	height: 25rem;
+	border-radius: 10%;
+	left: 35rem;
+	top: 46rem;
+	border-color: white;
+	border-width: 5px;
+	margin-bottom: 10rem;
+}
+
+#Canvas8 {
+	position: absolute;
+	background-color: #e73863;
+	width: 28.1rem;
+	height: 25rem;
+	border-radius: 10%;
+	left: 65rem;
+	top: 46rem;
+	border-color: white;
+	border-width: 5px;
+	margin-bottom: 10rem;
+}
+
+#Canvas9 {
+	position: absolute;
+	background-color: #e73863;
+	width: 28.1rem;
+	height: 25rem;
+	border-radius: 10%;
+	left: 95rem;
+	top: 46rem;
+	border-color: white;
+	border-width: 5px;
+	margin-bottom: 10rem;
+}
+
+#Canvas10 {
+	position: absolute;
+	background-color: #792464;
+	left: 113rem;
+}
+
+.teamsTitle {
+	position: absolute;
+	text-decoration: underline;
+	color: white;
+	left: 6rem;
+	top: 40.5rem;
+}
+
+#wins h1 {
+	position: absolute;
+	text-decoration: underline;
+	color: white;
+	top: 46rem;
+	left: 6rem;
+}
+
+#losses h1 {
+	position: absolute;
+	text-decoration: underline;
+	color: white;
+	top: 46rem;
+	left: 36rem;
+}
+
+#teamGoals h1 {
+	position: absolute;
+	text-decoration: underline;
+	color: white;
+	top: 46rem;
+	left: 66rem;
+}
+
+#cleanSheets h1 {
+	position: absolute;
+	text-decoration: underline;
+	color: white;
+	top: 46rem;
+	left: 96rem;
+}
+
+#wins .wins1{
+	position: absolute;
+	color: white;
+	left: 6rem;
+	top: 53rem;
+}
+
+
+#wins .wins2{
+	position: absolute;
+	color: white;
+	left: 6rem;
+	top: 56rem;
+}
+
+#wins .winsTotal2{
+	position: absolute;
+	color: white;
+	top: 56rem;
+	left: 31rem;
+}
+
+#wins .wins3{
+	position: absolute;
+	color: white;
+	left: 6rem;
+	top: 57.5rem;
+}
+
+#wins .winsTotal3{
+	position: absolute;
+	color: white;
+	top: 57.5rem;
+	left: 31rem;
+}
+
+#wins .wins4{
+	position: absolute;
+	color: white;
+	left: 6rem;
+	top: 59rem;
+}
+
+#wins .winsTotal4{
+	position: absolute;
+	color: white;
+	top: 59rem;
+	left: 31rem;
+}
+
+#wins .wins5{
+	position: absolute;
+	color: white;
+	left: 6rem;
+	top: 60.5rem;
+}
+
+#wins .winsTotal5{
+	position: absolute;
+	color: white;
+	top: 60.5rem;
+	left: 31rem;
+}
+
+#wins .wins6{
+	position: absolute;
+	color: white;
+	left: 6rem;
+	top: 62rem;
+}
+
+#wins .winsTotal6{
+	position: absolute;
+	color: white;
+	top: 62rem;
+	left: 31rem;
+}
+
+#wins .wins7{
+	position: absolute;
+	color: white;
+	left: 6rem;
+	top: 63.5rem;
+}
+
+#wins .winsTotal7{
+	position: absolute;
+	color: white;
+	top: 63.5rem;
+	left: 31rem;
+}
+
+#wins .wins8{
+	position: absolute;
+	color: white;
+	left: 6rem;
+	top: 65rem;
+}
+
+#wins .winsTotal8{
+	position: absolute;
+	color: white;
+	top: 65rem;
+	left: 31rem;
+}
+
+#wins .wins9{
+	position: absolute;
+	color: white;
+	left: 6rem;
+	top: 66.5rem;
+}
+
+#wins .winsTotal9{
+	position: absolute;
+	color: white;
+	top: 66.5rem;
+	left: 31rem;
+}
+
+#wins .wins10{
+	position: absolute;
+	color: white;
+	left: 6rem;
+	top: 68rem;
+}
+
+#wins .winsTotal10{
+	position: absolute;
+	color: white;
+	top: 68rem;
+	left: 31rem;
+}
+
+#losses .losses1{
+	position: absolute;
+	color: white;
+	left: 36rem;
+	top: 53rem;
+}
+
+#losses .losses2{
+	position: absolute;
+	color: white;
+	left: 36rem;
+	top: 56rem;
+}
+
+#losses .lossesTotal2{
+	position: absolute;
+	color: white;
+	top: 56rem;
+	left: 61rem;
+}
+
+#losses .losses3{
+	position: absolute;
+	color: white;
+	left: 36rem;
+	top: 57.5rem;
+}
+
+#losses .lossesTotal3{
+	position: absolute;
+	color: white;
+	top: 57.5rem;
+	left: 61rem;
+}
+
+#losses .losses4{
+	position: absolute;
+	color: white;
+	left: 36rem;
+	top: 59rem;
+}
+
+#losses .lossesTotal4{
+	position: absolute;
+	color: white;
+	top: 59rem;
+	left: 61rem;
+}
+
+#losses .losses5{
+	position: absolute;
+	color: white;
+	left: 36rem;
+	top: 60.5rem;
+}
+
+#losses .lossesTotal5{
+	position: absolute;
+	color: white;
+	top: 60.5rem;
+	left: 61rem;
+}
+
+#losses .losses6{
+	position: absolute;
+	color: white;
+	left: 36rem;
+	top: 62rem;
+}
+
+#losses .lossesTotal6{
+	position: absolute;
+	color: white;
+	top: 62rem;
+	left: 61rem;
+}
+
+#losses .losses7{
+	position: absolute;
+	color: white;
+	left: 36rem;
+	top: 63.5rem;
+}
+
+#losses .lossesTotal7{
+	position: absolute;
+	color: white;
+	top: 63.5rem;
+	left: 61rem;
+}
+
+#losses .losses8{
+	position: absolute;
+	color: white;
+	left: 36rem;
+	top: 65rem;
+}
+
+#losses .lossesTotal8{
+	position: absolute;
+	color: white;
+	top: 65rem;
+	left: 61rem;
+}
+
+#losses .losses9{
+	position: absolute;
+	color: white;
+	left: 36rem;
+	top: 66.5rem;
+}
+
+#losses .lossesTotal9{
+	position: absolute;
+	color: white;
+	top: 66.5rem;
+	left: 61rem;
+}
+
+#losses .losses10{
+	position: absolute;
+	color: white;
+	left: 36rem;
+	top: 68rem;
+}
+
+#losses .lossesTotal10{
+	position: absolute;
+	color: white;
+	top: 68rem;
+	left: 61rem;
+}
+
+#teamGoals .teamGoals1{
+	position: absolute;
+	color: white;
+	left: 66rem;
+	top: 53rem;
+}
+
+#teamGoals .teamGoals2{
+	position: absolute;
+	color: white;
+	left: 66rem;
+	top: 56rem;
+}
+
+#teamGoals .teamGoalsTotal2{
+	position: absolute;
+	color: white;
+	top: 56rem;
+	left: 90rem;
+}
+
+#teamGoals .teamGoals3{
+	position: absolute;
+	color: white;
+	left: 66rem;
+	top: 57.5rem;
+}
+
+#teamGoals .teamGoalsTotal3{
+	position: absolute;
+	color: white;
+	top: 57.5rem;
+	left: 90rem;
+}
+
+#teamGoals .teamGoals4{
+	position: absolute;
+	color: white;
+	left: 66rem;
+	top: 59rem;
+}
+
+#teamGoals .teamGoalsTotal4{
+	position: absolute;
+	color: white;
+	top: 59rem;
+	left: 90rem;
+}
+
+#teamGoals .teamGoals5{
+	position: absolute;
+	color: white;
+	left: 66rem;
+	top: 60.5rem;
+}
+
+#teamGoals .teamGoalsTotal5{
+	position: absolute;
+	color: white;
+	top: 60.5rem;
+	left: 90rem;
+}
+
+#teamGoals .teamGoals6{
+	position: absolute;
+	color: white;
+	left: 66rem;
+	top: 62rem;
+}
+
+#teamGoals .teamGoalsTotal6{
+	position: absolute;
+	color: white;
+	top: 62rem;
+	left: 90rem;
+}
+
+#teamGoals .teamGoals7{
+	position: absolute;
+	color: white;
+	left: 66rem;
+	top: 63.5rem;
+}
+
+#teamGoals .teamGoalsTotal7{
+	position: absolute;
+	color: white;
+	top: 63.5rem;
+	left: 90rem;
+}
+
+#teamGoals .teamGoals8{
+	position: absolute;
+	color: white;
+	left: 66rem;
+	top: 65rem;
+}
+
+#teamGoals .teamGoalsTotal8{
+	position: absolute;
+	color: white;
+	top: 65rem;
+	left: 90rem;
+}
+
+#teamGoals .teamGoals9{
+	position: absolute;
+	color: white;
+	left: 66rem;
+	top: 66.5rem;
+}
+
+#teamGoals .teamGoalsTotal9{
+	position: absolute;
+	color: white;
+	top: 66.5rem;
+	left: 90rem;
+}
+
+#teamGoals .teamGoals10{
+	position: absolute;
+	color: white;
+	left: 66rem;
+	top: 68rem;
+}
+
+#teamGoals .teamGoalsTotal10{
+	position: absolute;
+	color: white;
+	top: 68rem;
+	left: 90rem;
+}
+
+#cleanSheets .cleanSheets1{
+	position: absolute;
+	color: white;
+	left: 96rem;
+	top: 53rem;
+}
+
+#cleanSheets .cleanSheetsFirst1{
+	position: absolute;
+	color: white;
+	left: 97rem;
+	top: 53rem;
+}
+
+#cleanSheets .cleanSheetsSecond1{
+	position: absolute;
+	color: white;
+	left: 99.2rem;
+	top: 53rem;
+}
+
+#cleanSheets .cleanSheetsTotal1{
+	position: absolute;
+	color: white;
+	left: 120rem;
+	top: 53rem;
+}
+
+#cleanSheets .cleanSheets2{
+	position: absolute;
+	color: white;
+	left: 96rem;
+	top: 56rem;
+}
+
+#cleanSheets .cleanSheetsFirst2{
+	position: absolute;
+	color: white;
+	left: 97rem;
+	top: 56rem;
+}
+
+#cleanSheets .cleanSheetsTotal2{
+	position: absolute;
+	color: white;
+	left: 120rem;
+	top: 56rem;
+}
+
+#cleanSheets .cleanSheets3{
+	position: absolute;
+	color: white;
+	left: 96rem;
+	top: 57.5rem;
+}
+
+#cleanSheets .cleanSheetsFirst3{
+	position: absolute;
+	color: white;
+	left: 97rem;
+	top: 57.5rem;
+}
+
+#cleanSheets .cleanSheetsSecond3{
+	position: absolute;
+	color: white;
+	left: 99.2rem;
+	top: 57.5rem;
+}
+
+#cleanSheets .cleanSheetsTotal3{
+	position: absolute;
+	color: white;
+	left: 120rem;
+	top: 57.5rem;
+}
+
+#cleanSheets .cleanSheets4{
+	position: absolute;
+	color: white;
+	left: 96rem;
+	top: 59rem;
+}
+
+#cleanSheets .cleanSheetsFirst4{
+	position: absolute;
+	color: white;
+	left: 97rem;
+	top: 59rem;
+}
+
+#cleanSheets .cleanSheetsTotal4{
+	position: absolute;
+	color: white;
+	top: 59rem;
+	left: 120rem;
+}
+
+#cleanSheets .cleanSheets5{
+	position: absolute;
+	color: white;
+	left: 96rem;
+	top: 60.5rem;
+}
+
+#cleanSheets .cleanSheetsFirst5{
+	position: absolute;
+	color: white;
+	left: 97rem;
+	top: 60.5rem;
+}
+
+#cleanSheets .cleanSheetsTotal5{
+	position: absolute;
+	color: white;
+	top: 60.5rem;
+	left: 120rem;
+}
+
+#cleanSheets .cleanSheets6{
+	position: absolute;
+	color: white;
+	left: 96rem;
+	top: 62rem;
+}
+
+#cleanSheets .cleanSheetsFirst6{
+	position: absolute;
+	color: white;
+	left: 97rem;
+	top: 62rem;
+}
+
+#cleanSheets .cleanSheetsTotal6{
+	position: absolute;
+	color: white;
+	top: 62rem;
+	left: 120rem;
+}
+
+#cleanSheets .cleanSheets7{
+	position: absolute;
+	color: white;
+	left: 96rem;
+	top: 63.5rem;
+}
+
+#cleanSheets .cleanSheetsFirst7{
+	position: absolute;
+	color: white;
+	left: 97rem;
+	top: 63.5rem;
+}
+
+#cleanSheets .cleanSheetsTotal7{
+	position: absolute;
+	color: white;
+	top: 63.5rem;
+	left: 120rem;
+}
+
+#cleanSheets .cleanSheets8{
+	position: absolute;
+	color: white;
+	left: 96rem;
+	top: 65rem;
+}
+
+#cleanSheets .cleanSheetsFirst8{
+	position: absolute;
+	color: white;
+	left: 97rem;
+	top: 65rem;
+}
+
+#cleanSheets .cleanSheetsTotal8{
+	position: absolute;
+	color: white;
+	top: 65rem;
+	left: 120rem;
+}
+
+#cleanSheets .cleanSheets9{
+	position: absolute;
+	color: white;
+	left: 96rem;
+	top: 66.5rem;
+}
+
+#cleanSheets .cleanSheetsFirst9{
+	position: absolute;
+	color: white;
+	left: 97rem;
+	top: 66.5rem;
+}
+
+#cleanSheets .cleanSheetsTotal9{
+	position: absolute;
+	color: white;
+	top: 66.5rem;
+	left: 120rem;
+}
+
+#cleanSheets .cleanSheets10{
+	position: absolute;
+	color: white;
+	left: 96rem;
+	top: 68rem;
+}
+
+#cleanSheets .cleanSheetsFirst10{
+	position: absolute;
+	color: white;
+	left: 97.5rem;
+	top: 68rem;
+}
+
+#cleanSheets .cleanSheetsSecond10{
+	position: absolute;
+	color: white;
+	left: 100rem;
+	top: 68rem;
+}
+
+#cleanSheets .cleanSheetsTotal10{
+	position: absolute;
+	color: white;
+	top: 68rem;
+	left: 120rem;
+}
+
+

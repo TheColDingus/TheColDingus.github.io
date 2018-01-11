@@ -1,0 +1,91 @@
+body{
+	background-color: navy;
+	font-family: Helvetica, Arial, Gotham;
+}
+
+#EvertonLogo1{
+	position: absolute;
+	opacity: 0.3;
+	width: 10rem;
+	height: 10rem;
+	top: 17rem;
+	left: 43%;
+}
+
+#EvertonLogo2{
+	position: absolute;
+	width: 10rem;
+	height: 10rem;
+}
+
+#header{
+	position: absolute;
+	text-align: centre;
+	padding: 10;
+	color: #5DBCD2;
+	top: 2.2rem;
+	left: 11rem;
+}
+
+#resultsTable table{
+	position: absolute;
+	top: 13rem;
+	background-color: white;
+	color: white;
+	width: 30%;
+	height: 30%;
+	border: 1px solid black;
+}
+
+#resultsTable th{
+	text-align: left;
+	background-color: #5DBCD2;
+}
+
+
+#fixtureTable table{
+	position: absolute;
+	top: 28rem;
+	background-color: white;
+	color: white;
+	width: 30%;
+	height: 30%;
+	border: 1px solid black;
+}
+
+#fixtureTable th{
+	text-align: left;
+	background-color: #5DBCD2;
+}
+
+
+#News u{
+	position: absolute;
+	right: 18rem;
+	color: white;
+}
+
+#Store u{
+	position: absolute;
+	right: 18.3rem;
+	top: 24rem;
+	color: white;
+}
+
+#HomeShirt{
+	position: absolute;
+	right: 14rem;
+	top: 26rem;
+	border-color: #5DBCD2;
+	border-style: solid;
+	border-width: 0.5rem;
+	border-radius: 20%;
+	height: 10rem;
+	width: 10rem;
+}
+
+#video {
+	position: absolute;
+	left: 47rem;
+	top: 3rem;
+}

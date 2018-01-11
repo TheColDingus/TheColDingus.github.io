@@ -1,0 +1,91 @@
+body{
+	background-color: #005DBC;
+	font-family: Helvetica, Arial, Gotham;
+}
+
+#CrystalPalaceLogo1{
+	position: absolute;
+	opacity: 0.3;
+	width: 10rem;
+	height: 10rem;
+	top: 17rem;
+	left: 43%;
+}
+
+#CrystalPalaceLogo2{
+	position: absolute;
+	width: 10rem;
+	height: 10rem;
+}
+
+#header{
+	position: absolute;
+	text-align: centre;
+	padding: 10;
+	color: #EA1D3C;
+	top: 2.2rem;
+	left: 11rem;
+}
+
+#resultsTable table{
+	position: absolute;
+	top: 13rem;
+	background-color: white;
+	color: #005DBC;
+	width: 30%;
+	height: 30%;
+	border: 1px solid black;
+}
+
+#resultsTable th{
+	text-align: left;
+	background-color: #EA1D3C;
+}
+
+
+#fixtureTable table{
+	position: absolute;
+	top: 28rem;
+	background-color: white;
+	color: #005DBC;
+	width: 30%;
+	height: 30%;
+	border: 1px solid black;
+}
+
+#fixtureTable th{
+	text-align: left;
+	background-color: #EA1D3C;
+}
+
+
+#News u{
+	position: absolute;
+	right: 18rem;
+	color: white;
+}
+
+#Store u{
+	position: absolute;
+	right: 18.3rem;
+	top: 24rem;
+	color: white;
+}
+
+#HomeShirt{
+	position: absolute;
+	right: 14rem;
+	top: 26rem;
+	border-color: #EA1D3C;
+	border-style: solid;
+	border-width: 0.5rem;
+	border-radius: 20%;
+	height: 10rem;
+	width: 10rem;
+}
+
+#video {
+	position: absolute;
+	left: 47rem;
+	top: 3rem;
+}

@@ -1,0 +1,389 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>My Website</title>
+	<link rel="stylesheet" href="IndexStyle.css">
+	<!-- This is my use of local storage to create a fun, little game to help pass the times for users -->
+	<script>
+	function clickCounter(){
+		if(typeof(Storage) !== "undefined"){
+			if (sessionStorage.clickcount){
+				sessionStorage.clickcount = Number(sessionStorage.clickcount)+1;
+			} else {
+				sessionStorage.clickcount = 1;
+			}
+			document.getElementById("result").innerHTML = "That's " + sessionStorage.clickcount;
+		} else {
+			document.getElementById("result").innerHTML = "Sorry, but your browser does not support web storage, whoops";
+		}
+	}
+	</script>
+</head>
+
+<body>
+
+	<!-- Canvas is used to separate areas of the background colouring -->
+	<canvas id="Canvas1"></canvas>
+	<canvas id="Canvas2"></canvas>
+	<div id = "image">
+		<img id = "logo" src = "Premier_League_Logo.PNG">
+	</div>
+	<div id = "header">
+		<h1>The brand spanking new Premier League website!</h1>
+	</div>
+	<div id = "sideLinks">
+		<u class = "leagueStatistics">League Statistics</u>
+		<img id = "statisticsImage" src = "StatisticsImage.JPG">
+		<u class = "shirts">Buy your own shirts!</u>
+		<img id = "shirtsImage" src = "ShirtsImage.JPG">
+	</div>
+	
+	<!-- Game is deployed here -->
+	<p><button id = "boredomButton" onclick = "clickCounter()" type = "button"> Bored by any chance? Then click me!</button></p>
+	<div id = "result"></div>
+	
+	<div id = "Demo">
+		<a href = "Demo.html">
+			<u>Demo Link</u>
+		</a>
+	</div>
+
+	<div id = "statisticsText">
+		<p>Want to know loads of cool facts</p>
+		<p>to tell your friends to look smart?</p>
+		<!-- A hyperlink to another page -->
+		<a href = "StatisticsPage.html">
+			<u>Click here.</u>
+		</a>
+	</div>
+	<div id = "shirtText">
+		<p>Buy a personalised shirt from</p>
+		<p>from your favourite club.</p>
+		<a href = "ShirtsPage.html">
+			<u>Click here.</u>
+		</a>
+	</div>
+	<div id = "logos">
+		<a href ="ArsenalPage.html">
+			<img id = "Arsenal" src = "ArsenalLogo.SVG">
+		</a>
+		<a href = "BournemouthPage.html">
+			<img id = "Bournemouth" src = "BournemouthLogo.PNG">
+		</a>
+		<a href = "BrightonPage.html">
+			<img id = "Brighton" src = "BrightonLogo.PNG">
+		</a>
+		<a href = "BurnleyPage.html">
+			<img id = "Burnley" src = "BurnleyLogo.PNG">
+		</a>
+		<a href = "ChelseaPage.html">
+			<img id = "Chelsea" src = "ChelseaLogo.PNG">
+		</a>
+		<a href = "CrystalPalacePage.html">
+			<img id = "CrystalPalace" src = "CrystalPalaceLogo.PNG">
+		</a>
+		<a href = "EvertonPage.html">
+			<img id = "Everton" src = "EvertonLogo.PNG">
+		</a>
+		<a href = "HuddersfieldPage.html">
+			<img id = "Huddersfield" src = "HuddersfieldLogo.PNG">
+		</a>
+		<a href = "LeicesterPage.html">
+			<img id = "Leicester" src = "LeicesterLogo.PNG">
+		</a>
+		<a href = "LiverpoolPage.html">
+			<img id = "Liverpool" src = "LiverpoolLogo.PNG">
+		</a>
+		<a href = "ManCityPage.html">
+			<img id = "ManCity" src = "ManCityLogo.PNG">
+		</a>
+		<a href = "ManUnitedPage.html">
+			<img id = "ManUnited" src = "ManUnitedLogo.PNG">
+		</a>
+		<a href = "NewcastlePage.html">
+			<img id = "Newcastle" src = "NewcastleLogo.PNG">
+		</a>
+		<a href = "SouthamptonPage.html">
+			<img id = "Southampton" src = "SouthamptonLogo.PNG">
+		</a>
+		<a href = "StokePage.html">
+			<img id = "Stoke" src = "StokeLogo.PNG">
+		</a>
+		<a href = "SwanseaPage.html">
+			<img id = "Swansea" src = "SwanseaLogo.PNG">
+		</a>
+		<a href = "TottenhamPage.html">
+			<img id = "Tottenham" src = "TottenhamLogo.PNG">
+		</a>
+		<a href = "WatfordPage.html">
+			<img id = "Watford" src = "WatfordLogo.PNG">
+		</a>
+		<a href = "WestBromPage.html">
+			<img id = "WestBrom" src = "WestBromLogo.PNG">
+		</a>
+		<a href="WestHamPage.html">
+			<img id = "WestHam" src = "WestHamLogo.PNG" >
+		</a>
+	</div>
+	
+	<div id = "table">
+		<table>
+			<tr>
+				<th colspan = 10>Current Premier League Table</th>
+			<tr>
+				<th>Position</th>
+				<th>Club</th>
+				<th>MP </th>
+				<th>W  </th>
+				<th>D  </th>
+				<th>L  </th>
+				<th>GF </th>
+				<th>GA </th>
+				<th>GD </th>
+				<th>Pts</th>
+			</tr>
+			<tr>
+				<th>1</th>
+				<th>Man City</th>
+				<th>12</th>
+				<th>11</th>
+				<th>1</th>
+				<th>0</th>
+				<th>40</th>
+				<th>7</th>
+				<th>33</th>
+				<th>34</th>
+			</tr>
+			<tr>
+				<th>2</th>
+				<th>Man United</th>
+				<th>13</th>
+				<th>9</th>
+				<th>2</th>
+				<th>2</th>
+				<th>28</th>
+				<th>6</th>
+				<th>22</th>
+				<th>29</th>
+			</tr>
+			<tr>
+				<th>3</th>
+				<th>Chelsea</th>
+				<th>13</th>
+				<th>8</th>
+				<th>2</th>
+				<th>3</th>
+				<th>24</th>
+				<th>11</th>
+				<th>13</th>
+				<th>26</th>
+			</tr>
+			<tr>
+				<th>4</th>
+				<th>Tottenham</th>
+				<th>13</th>
+				<th>7</th>
+				<th>3</th>
+				<th>3</th>
+				<th>21</th>
+				<th>10</th>
+				<th>11</th>
+				<th>24</th>
+			</tr>
+			<tr>
+				<th>5</th>
+				<th>Liverpool</th>
+				<th>13</th>
+				<th>6</th>
+				<th>5</th>
+				<th>2</th>
+				<th>25</th>
+				<th>18</th>
+				<th>7</th>
+				<th>23</th>
+			</tr>
+			<tr>
+				<th>6</th>
+				<th>Arsenal</th>
+				<th>12</th>
+				<th>7</th>
+				<th>1</th>
+				<th>4</th>
+				<th>22</th>
+				<th>16</th>
+				<th>6</th>
+				<th>22</th>
+			</tr>
+			<tr>
+				<th>7</th>
+				<th>Burnley FC</th>
+				<th>12</th>
+				<th>6</th>
+				<th>4</th>
+				<th>2</th>
+				<th>12</th>
+				<th>9</th>
+				<th>3</th>
+				<th>22</th>
+			</tr>
+			<tr>
+				<th>8</th>
+				<th>Watford</th>
+				<th>13</th>
+				<th>6</th>
+				<th>3</th>
+				<th>4</th>
+				<th>22</th>
+				<th>21</th>
+				<th>1</th>
+				<th>21</th>
+			</tr>
+			<tr>
+				<th>9</th>
+				<th>Brighton</th>
+				<th>13</th>
+				<th>4</th>
+				<th>4</th>
+				<th>5</th>
+				<th>13</th>
+				<th>14</th>
+				<th>-1</th>
+				<th>16</th>
+			</tr>
+			<tr>
+				<th>10</th>
+				<th>Huddersfield</th>
+				<th>12</th>
+				<th>4</th>
+				<th>3</th>
+				<th>5</th>
+				<th>8</th>
+				<th>17</th>
+				<th>-9</th>
+				<th>15</th>
+			</tr>
+			<tr>
+				<th>11</th>
+				<th>Leicester</th>
+				<th>13</th>
+				<th>3</th>
+				<th>5</th>
+				<th>5</th>
+				<th>17</th>
+				<th>19</th>
+				<th>-2</th>
+				<th>14</th>
+			</tr>
+			<tr>
+				<th>12</th>
+				<th>Bournemouth</th>
+				<th>13</th>
+				<th>4</th>
+				<th>2</th>
+				<th>7</th>
+				<th>11</th>
+				<th>14</th>
+				<th>-3</th>
+				<th>14</th>
+			</tr>
+			<tr>
+				<th>13</th>
+				<th>Newcastle</th>
+				<th>13</th>
+				<th>4</th>
+				<th>2</th>
+				<th>7</th>
+				<th>11</th>
+				<th>14</th>
+				<th>-6</th>
+				<th>14</th>
+			</tr>
+			<tr>
+				<th>14</th>
+				<th>Southampton</th>
+				<th>12</th>
+				<th>3</th>
+				<th>4</th>
+				<th>5</th>
+				<th>9</th>
+				<th>14</th>
+				<th>-5</th>
+				<th>13</th>
+			</tr>
+			<tr>
+				<th>15</th>
+				<th>Stoke City</th>
+				<th>13</th>
+				<th>3</th>
+				<th>4</th>
+				<th>6</th>
+				<th>16</th>
+				<th>26</th>
+				<th>-10</th>
+				<th>13</th>
+			</tr>
+			<tr>
+				<th>16</th>
+				<th>Everton</th>
+				<th>12</th>
+				<th>3</th>
+				<th>3</th>
+				<th>6</th>
+				<th>12</th>
+				<th>24</th>
+				<th>-12</th>
+				<th>12</th>
+			</tr>
+			<tr>
+				<th>17</th>
+				<th>West Brom</th>
+				<th>13</th>
+				<th>2</th>
+				<th>5</th>
+				<th>6</th>
+				<th>10</th>
+				<th>19</th>
+				<th>-9</th>
+				<th>11</th>
+			</tr>
+			<tr>
+				<th>18</th>
+				<th>West Ham</th>
+				<th>13</th>
+				<th>2</th>
+				<th>4</th>
+				<th>7</th>
+				<th>12</th>
+				<th>26</th>
+				<th>-14</th>
+				<th>10</th>
+			</tr>
+			<tr>
+				<th>19</th>
+				<th>Swansea City</th>
+				<th>13</th>
+				<th>2</th>
+				<th>3</th>
+				<th>8</th>
+				<th>7</th>
+				<th>15</th>
+				<th>-8</th>
+				<th>9</th>
+			</tr>
+			<tr>
+				<th>20</th>
+				<th>Crystal Palace</th>
+				<th>13</th>
+				<th>2</th>
+				<th>2</th>
+				<th>9</th>
+				<th>8</th>
+				<th>25</th>
+				<th>-17</th>
+				<th>8</th>
+			</tr>
+		</table>
+	
+</body>
+</html>

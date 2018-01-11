@@ -1,0 +1,622 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>My Website</title>
+	<link rel="stylesheet" href="ShirtsStyle.css">
+</head>
+
+<body>
+	<canvas id = "Canvas1"></canvas>
+	<canvas id = "Canvas2"></canvas>
+	<canvas id = "Canvas3"></canvas>
+	<canvas id = "Canvas4"></canvas>
+	<canvas id = "Canvas5"></canvas>
+	<canvas id = "Canvas6"></canvas>
+	<div id = "image">
+		<a href = "Home.html">
+			<img id = "logo" src = "Premier_League_Logo.PNG">
+		</a>
+	</div>
+	<div id = "header">
+		<h1>Shirts Page</h1>
+	</div>
+	
+	<u id = "price">Price</u>
+	<h1 id = "priceTotal">£50</h1>
+	
+	<div id = "sizes">
+		<u>Sizes</u>
+		<form>
+			<input id = "xSmall" type ="radio" name = "size" value = "extraSmall" checked><br>
+			<input id = "small" type ="radio" name = "size" value = "small"><br>
+			<input id = "medium" type ="radio" name = "size" value = "medium"><br>
+			<input id = "large" type ="radio" name = "size" value = "large"><br>
+			<input id = "xLarge" type ="radio" name = "size" value = "extraLarge">
+		</form>
+	</div>
+	
+	<p id = "size1">Extra Small</p>
+	<p id = "size2">Small</p>
+	<p id = "size3">Medium</p>
+	<p id = "size4">Large</p>
+	<p id = "size5">Extra Large</p>
+	
+	<div id = "gender">
+		<u>Gender</u>
+		<form>
+			<input id = "male" type ="radio" name = "gender" value = "male" checked><br>
+			<input id = "female" type ="radio" name = "gender" value = "female"><br>
+		</form>
+	</div>
+	
+	<p id = "gender1">Male</p>
+	<p id = "gender2">Female</p>
+	
+	<div id = "sleeveLength">
+		<u>Sleeve Length</u>
+		<form>
+			<input id = "short" type ="radio" name = "sleeve" value = "short" checked><br>
+			<input id = "long" type ="radio" name = "sleeve" value = "long"><br>
+		</form>
+	</div>
+	
+	<p id = "sleeve1">Short</p>
+	<p id = "sleeve2">Long</p>
+	
+	<div id = "shirtDetails">
+		<u>Edit shit name and number</u>
+		<form>
+			<input id = "name" type="text" name="name"><br>
+			<input id = "number" type="number" name="number" min="1" max ="99">
+	</div>
+	
+	<p id = "name1">Name:</p>
+	<p id = "number1">Number (between 1 and 99):</p>
+	
+	<div id = "club">
+		<u>Select a club:</u>
+	</div>
+	
+	<img id ="arsenalShirt" src = "arsenalHome.JPG">
+	<img id ="bournemouthShirt" src = "bournemouthHome.JPG">
+	<img id ="brightonShirt" src = "brightonHome.PNG">
+	<img id ="burnleyShirt" src = "burnleyHome.JPG">
+	<img id ="chelseaShirt" src = "chelseaHome.JPG">
+	<img id ="crystalPalaceShirt" src = "crystalpalaceHome.JPG">
+	<img id ="evertonShirt" src = "evertonHome.JPG">
+	<img id ="huddersfieldShirt" src = "huddersfieldHome.JPG">
+	<img id ="leicesterShirt" src = "leicesterHome.JPG">
+	<img id ="liverpoolShirt" src = "liverpoolHome.JPG">
+	<img id ="manCityShirt" src = "manCityHome.JPG">
+	<img id ="manUnitedShirt" src = "manUnitedHome.JPG">
+	<img id ="newcastleShirt" src = "newcastleHome.JPG">
+	<img id ="southamptonShirt" src = "southamptonHome.JPG">
+	<img id ="stokeShirt" src = "stokeHome.JPG">
+	<img id ="swanseaShirt" src = "swanseaHome.JPG">
+	<img id ="tottenhamShirt" src = "tottenhamHome.JPG">
+	<img id ="watfordShirt" src = "watfordHome.PNG">
+	<img id ="westBromShirt" src = "westBromHome.JPG">
+	<img id ="westHamShirt" src = "westHamHome.JPG">
+	
+	<button id = "arsenalButton" type="button" onclick="showImageArsenal()">Arsenal</button>
+	<button id = "bournemouthButton" type ="button" onclick="showImageBournemouth()">Bournemouth</button>
+	<button id = "brightonButton" type ="button" onclick="showImageBrighton()">Brighton</button>
+	<button id = "burnleyButton" type ="button" onclick="showImageBurnley()">Burnley</button>
+	<button id = "chelseaButton" type ="button" onclick="showImageChelsea()">Chelsea</button>
+	<button id = "crystalPalaceButton" type ="button" onclick="showImageCrystalPalace()">Crystal Palace</button>
+	<button id = "evertonButton" type ="button" onclick="showImageEverton()">Everton</button>
+	<button id = "huddersfieldButton" type ="button" onclick="showImageHuddersfield()">Huddersfield</button>
+	<button id = "leicesterButton" type ="button" onclick="showImageLeicester()">Leicester</button>
+	<button id = "liverpoolButton" type ="button" onclick="showImageLiverpool()">Liverpool</button>
+	<button id = "manCityButton" type ="button" onclick="showImageManCity()">Man City</button>
+	<button id = "manUnitedButton" type ="button" onclick="showImageManUnited()">Man United</button>
+	<button id = "newcastleButton" type ="button" onclick="showImageNewcastle()">Newcastle</button>
+	<button id = "southamptonButton" type ="button" onclick="showImageSouthampton()">Southampton</button>
+	<button id = "stokeButton" type ="button" onclick="showImageStoke()">Stoke</button>
+	<button id = "swanseaButton" type ="button" onclick="showImageSwansea()">Swansea</button>
+	<button id = "tottenhamButton" type ="button" onclick="showImageTottenham()">Tottenham</button>
+	<button id = "watfordButton" type ="button" onclick="showImageWatford()">Watford</button>
+	<button id = "westBromButton" type ="button" onclick="showImageWestBrom()">West Brom</button>
+	<button id = "westHamButton" type ="button" onclick="showImageWestHam()">West Ham</button>
+	
+	<script>
+	function showImageArsenal() {
+		document.getElementById("priceTotal").style.visibility = "visible";
+		document.getElementById("arsenalShirt").style.visibility = "visible";
+		document.getElementById("brightonShirt").style.visibility = "hidden";
+		document.getElementById("bournemouthShirt").style.visibility = "hidden";
+		document.getElementById("burnleyShirt").style.visibility = "hidden";
+		document.getElementById("chelseaShirt").style.visibility = "hidden";
+		document.getElementById("crystalPalaceShirt").style.visibility = "hidden";
+		document.getElementById("evertonShirt").style.visibility = "hidden";
+		document.getElementById("huddersfieldShirt").style.visibility = "hidden";
+		document.getElementById("leicesterShirt").style.visibility = "hidden";
+		document.getElementById("liverpoolShirt").style.visibility = "hidden";
+		document.getElementById("manCityShirt").style.visibility = "hidden";
+		document.getElementById("manUnitedShirt").style.visibility = "hidden";
+		document.getElementById("newcastleShirt").style.visibility = "hidden";
+		document.getElementById("southamptonShirt").style.visibility = "hidden";
+		document.getElementById("stokeShirt").style.visibility = "hidden";
+		document.getElementById("swanseaShirt").style.visibility = "hidden";
+		document.getElementById("tottenhamShirt").style.visibility = "hidden";
+		document.getElementById("watfordShirt").style.visibility = "hidden";
+		document.getElementById("westBromShirt").style.visibility = "hidden";
+		document.getElementById("westHamShirt").style.visibility = "hidden";
+	}
+	</script>
+	<script>
+	function showImageBournemouth() {
+		document.getElementById("priceTotal").style.visibility = "visible";
+		document.getElementById("arsenalShirt").style.visibility = "hidden";
+		document.getElementById("brightonShirt").style.visibility = "hidden";
+		document.getElementById("bournemouthShirt").style.visibility = "visible";
+		document.getElementById("burnleyShirt").style.visibility = "hidden";
+		document.getElementById("chelseaShirt").style.visibility = "hidden";
+		document.getElementById("crystalPalaceShirt").style.visibility = "hidden";
+		document.getElementById("evertonShirt").style.visibility = "hidden";
+		document.getElementById("huddersfieldShirt").style.visibility = "hidden";
+		document.getElementById("leicesterShirt").style.visibility = "hidden";
+		document.getElementById("liverpoolShirt").style.visibility = "hidden";
+		document.getElementById("manCityShirt").style.visibility = "hidden";
+		document.getElementById("manUnitedShirt").style.visibility = "hidden";
+		document.getElementById("newcastleShirt").style.visibility = "hidden";
+		document.getElementById("southamptonShirt").style.visibility = "hidden";
+		document.getElementById("stokeShirt").style.visibility = "hidden";
+		document.getElementById("swanseaShirt").style.visibility = "hidden";
+		document.getElementById("tottenhamShirt").style.visibility = "hidden";
+		document.getElementById("watfordShirt").style.visibility = "hidden";
+		document.getElementById("westBromShirt").style.visibility = "hidden";
+		document.getElementById("westHamShirt").style.visibility = "hidden";
+	}
+	</script>
+	<script>
+	function showImageBrighton() {
+		document.getElementById("priceTotal").style.visibility = "visible";
+		document.getElementById("arsenalShirt").style.visibility = "hidden";
+		document.getElementById("brightonShirt").style.visibility = "visible";
+		document.getElementById("bournemouthShirt").style.visibility = "hidden";
+		document.getElementById("burnleyShirt").style.visibility = "hidden";
+		document.getElementById("chelseaShirt").style.visibility = "hidden";
+		document.getElementById("crystalPalaceShirt").style.visibility = "hidden";
+		document.getElementById("evertonShirt").style.visibility = "hidden";
+		document.getElementById("huddersfieldShirt").style.visibility = "hidden";
+		document.getElementById("leicesterShirt").style.visibility = "hidden";
+		document.getElementById("liverpoolShirt").style.visibility = "hidden";
+		document.getElementById("manCityShirt").style.visibility = "hidden";
+		document.getElementById("manUnitedShirt").style.visibility = "hidden";
+		document.getElementById("newcastleShirt").style.visibility = "hidden";
+		document.getElementById("southamptonShirt").style.visibility = "hidden";
+		document.getElementById("stokeShirt").style.visibility = "hidden";
+		document.getElementById("swanseaShirt").style.visibility = "hidden";
+		document.getElementById("tottenhamShirt").style.visibility = "hidden";
+		document.getElementById("watfordShirt").style.visibility = "hidden";
+		document.getElementById("westBromShirt").style.visibility = "hidden";
+		document.getElementById("westHamShirt").style.visibility = "hidden";
+	}
+	</script>
+	<script>
+	function showImageBurnley() {
+		document.getElementById("priceTotal").style.visibility = "visible";
+		document.getElementById("arsenalShirt").style.visibility = "hidden";
+		document.getElementById("brightonShirt").style.visibility = "hidden";
+		document.getElementById("bournemouthShirt").style.visibility = "hidden";
+		document.getElementById("burnleyShirt").style.visibility = "visible";
+		document.getElementById("chelseaShirt").style.visibility = "hidden";
+		document.getElementById("crystalPalaceShirt").style.visibility = "hidden";
+		document.getElementById("evertonShirt").style.visibility = "hidden";
+		document.getElementById("huddersfieldShirt").style.visibility = "hidden";
+		document.getElementById("leicesterShirt").style.visibility = "hidden";
+		document.getElementById("liverpoolShirt").style.visibility = "hidden";
+		document.getElementById("manCityShirt").style.visibility = "hidden";
+		document.getElementById("manUnitedShirt").style.visibility = "hidden";
+		document.getElementById("newcastleShirt").style.visibility = "hidden";
+		document.getElementById("southamptonShirt").style.visibility = "hidden";
+		document.getElementById("stokeShirt").style.visibility = "hidden";
+		document.getElementById("swanseaShirt").style.visibility = "hidden";
+		document.getElementById("tottenhamShirt").style.visibility = "hidden";
+		document.getElementById("watfordShirt").style.visibility = "hidden";
+		document.getElementById("westBromShirt").style.visibility = "hidden";
+		document.getElementById("westHamShirt").style.visibility = "hidden";
+	}
+	</script>
+	<script>
+	function showImageChelsea() {
+		document.getElementById("priceTotal").style.visibility = "visible";
+		document.getElementById("arsenalShirt").style.visibility = "hidden";
+		document.getElementById("brightonShirt").style.visibility = "hidden";
+		document.getElementById("bournemouthShirt").style.visibility = "hidden";
+		document.getElementById("burnleyShirt").style.visibility = "hidden";
+		document.getElementById("chelseaShirt").style.visibility = "visible";
+		document.getElementById("crystalPalaceShirt").style.visibility = "hidden";
+		document.getElementById("evertonShirt").style.visibility = "hidden";
+		document.getElementById("huddersfieldShirt").style.visibility = "hidden";
+		document.getElementById("leicesterShirt").style.visibility = "hidden";
+		document.getElementById("liverpoolShirt").style.visibility = "hidden";
+		document.getElementById("manCityShirt").style.visibility = "hidden";
+		document.getElementById("manUnitedShirt").style.visibility = "hidden";
+		document.getElementById("newcastleShirt").style.visibility = "hidden";
+		document.getElementById("southamptonShirt").style.visibility = "hidden";
+		document.getElementById("stokeShirt").style.visibility = "hidden";
+		document.getElementById("swanseaShirt").style.visibility = "hidden";
+		document.getElementById("tottenhamShirt").style.visibility = "hidden";
+		document.getElementById("watfordShirt").style.visibility = "hidden";
+		document.getElementById("westBromShirt").style.visibility = "hidden";
+		document.getElementById("westHamShirt").style.visibility = "hidden";
+	}
+	</script>
+	<script>
+	function showImageCrystalPalace() {
+		document.getElementById("priceTotal").style.visibility = "visible";
+		document.getElementById("arsenalShirt").style.visibility = "hidden";
+		document.getElementById("brightonShirt").style.visibility = "hidden";
+		document.getElementById("bournemouthShirt").style.visibility = "hidden";
+		document.getElementById("burnleyShirt").style.visibility = "hidden";
+		document.getElementById("chelseaShirt").style.visibility = "hidden";
+		document.getElementById("crystalPalaceShirt").style.visibility = "visible";
+		document.getElementById("evertonShirt").style.visibility = "hidden";
+		document.getElementById("huddersfieldShirt").style.visibility = "hidden";
+		document.getElementById("leicesterShirt").style.visibility = "hidden";
+		document.getElementById("liverpoolShirt").style.visibility = "hidden";
+		document.getElementById("manCityShirt").style.visibility = "hidden";
+		document.getElementById("manUnitedShirt").style.visibility = "hidden";
+		document.getElementById("newcastleShirt").style.visibility = "hidden";
+		document.getElementById("southamptonShirt").style.visibility = "hidden";
+		document.getElementById("stokeShirt").style.visibility = "hidden";
+		document.getElementById("swanseaShirt").style.visibility = "hidden";
+		document.getElementById("tottenhamShirt").style.visibility = "hidden";
+		document.getElementById("watfordShirt").style.visibility = "hidden";
+		document.getElementById("westBromShirt").style.visibility = "hidden";
+		document.getElementById("westHamShirt").style.visibility = "hidden";
+	}
+	</script>
+	<script>
+	function showImageEverton() {
+		document.getElementById("priceTotal").style.visibility = "visible";
+		document.getElementById("arsenalShirt").style.visibility = "hidden";
+		document.getElementById("brightonShirt").style.visibility = "hidden";
+		document.getElementById("bournemouthShirt").style.visibility = "hidden";
+		document.getElementById("burnleyShirt").style.visibility = "hidden";
+		document.getElementById("chelseaShirt").style.visibility = "hidden";
+		document.getElementById("crystalPalaceShirt").style.visibility = "hidden";
+		document.getElementById("evertonShirt").style.visibility = "visible";
+		document.getElementById("huddersfieldShirt").style.visibility = "hidden";
+		document.getElementById("leicesterShirt").style.visibility = "hidden";
+		document.getElementById("liverpoolShirt").style.visibility = "hidden";
+		document.getElementById("manCityShirt").style.visibility = "hidden";
+		document.getElementById("manUnitedShirt").style.visibility = "hidden";
+		document.getElementById("newcastleShirt").style.visibility = "hidden";
+		document.getElementById("southamptonShirt").style.visibility = "hidden";
+		document.getElementById("stokeShirt").style.visibility = "hidden";
+		document.getElementById("swanseaShirt").style.visibility = "hidden";
+		document.getElementById("tottenhamShirt").style.visibility = "hidden";
+		document.getElementById("watfordShirt").style.visibility = "hidden";
+		document.getElementById("westBromShirt").style.visibility = "hidden";
+		document.getElementById("westHamShirt").style.visibility = "hidden";
+	}
+	</script>
+	<script>
+	function showImageHuddersfield() {
+		document.getElementById("priceTotal").style.visibility = "visible";
+		document.getElementById("arsenalShirt").style.visibility = "hidden";
+		document.getElementById("brightonShirt").style.visibility = "hidden";
+		document.getElementById("bournemouthShirt").style.visibility = "hidden";
+		document.getElementById("burnleyShirt").style.visibility = "hidden";
+		document.getElementById("chelseaShirt").style.visibility = "hidden";
+		document.getElementById("crystalPalaceShirt").style.visibility = "hidden";
+		document.getElementById("evertonShirt").style.visibility = "hidden";
+		document.getElementById("huddersfieldShirt").style.visibility = "visible";
+		document.getElementById("leicesterShirt").style.visibility = "hidden";
+		document.getElementById("liverpoolShirt").style.visibility = "hidden";
+		document.getElementById("manCityShirt").style.visibility = "hidden";
+		document.getElementById("manUnitedShirt").style.visibility = "hidden";
+		document.getElementById("newcastleShirt").style.visibility = "hidden";
+		document.getElementById("southamptonShirt").style.visibility = "hidden";
+		document.getElementById("stokeShirt").style.visibility = "hidden";
+		document.getElementById("swanseaShirt").style.visibility = "hidden";
+		document.getElementById("tottenhamShirt").style.visibility = "hidden";
+		document.getElementById("watfordShirt").style.visibility = "hidden";
+		document.getElementById("westBromShirt").style.visibility = "hidden";
+		document.getElementById("westHamShirt").style.visibility = "hidden";
+	}
+	</script>
+	<script>
+	function showImageLeicester() {
+		document.getElementById("priceTotal").style.visibility = "visible";
+		document.getElementById("arsenalShirt").style.visibility = "hidden";
+		document.getElementById("brightonShirt").style.visibility = "hidden";
+		document.getElementById("bournemouthShirt").style.visibility = "hidden";
+		document.getElementById("burnleyShirt").style.visibility = "hidden";
+		document.getElementById("chelseaShirt").style.visibility = "hidden";
+		document.getElementById("crystalPalaceShirt").style.visibility = "hidden";
+		document.getElementById("evertonShirt").style.visibility = "hidden";
+		document.getElementById("huddersfieldShirt").style.visibility = "hidden";
+		document.getElementById("leicesterShirt").style.visibility = "visible";
+		document.getElementById("liverpoolShirt").style.visibility = "hidden";
+		document.getElementById("manCityShirt").style.visibility = "hidden";
+		document.getElementById("manUnitedShirt").style.visibility = "hidden";
+		document.getElementById("newcastleShirt").style.visibility = "hidden";
+		document.getElementById("southamptonShirt").style.visibility = "hidden";
+		document.getElementById("stokeShirt").style.visibility = "hidden";
+		document.getElementById("swanseaShirt").style.visibility = "hidden";
+		document.getElementById("tottenhamShirt").style.visibility = "hidden";
+		document.getElementById("watfordShirt").style.visibility = "hidden";
+		document.getElementById("westBromShirt").style.visibility = "hidden";
+		document.getElementById("westHamShirt").style.visibility = "hidden";
+	}
+	</script>
+	<script>
+	function showImageLiverpool() {
+		document.getElementById("priceTotal").style.visibility = "visible";
+		document.getElementById("arsenalShirt").style.visibility = "hidden";
+		document.getElementById("brightonShirt").style.visibility = "hidden";
+		document.getElementById("bournemouthShirt").style.visibility = "hidden";
+		document.getElementById("burnleyShirt").style.visibility = "hidden";
+		document.getElementById("chelseaShirt").style.visibility = "hidden";
+		document.getElementById("crystalPalaceShirt").style.visibility = "hidden";
+		document.getElementById("evertonShirt").style.visibility = "hidden";
+		document.getElementById("huddersfieldShirt").style.visibility = "hidden";
+		document.getElementById("leicesterShirt").style.visibility = "hidden";
+		document.getElementById("liverpoolShirt").style.visibility = "visible";
+		document.getElementById("manCityShirt").style.visibility = "hidden";
+		document.getElementById("manUnitedShirt").style.visibility = "hidden";
+		document.getElementById("newcastleShirt").style.visibility = "hidden";
+		document.getElementById("southamptonShirt").style.visibility = "hidden";
+		document.getElementById("stokeShirt").style.visibility = "hidden";
+		document.getElementById("swanseaShirt").style.visibility = "hidden";
+		document.getElementById("tottenhamShirt").style.visibility = "hidden";
+		document.getElementById("watfordShirt").style.visibility = "hidden";
+		document.getElementById("westBromShirt").style.visibility = "hidden";
+		document.getElementById("westHamShirt").style.visibility = "hidden";
+	}
+	</script>
+	<script>
+	function showImageManCity() {
+		document.getElementById("priceTotal").style.visibility = "visible";
+		document.getElementById("arsenalShirt").style.visibility = "hidden";
+		document.getElementById("brightonShirt").style.visibility = "hidden";
+		document.getElementById("bournemouthShirt").style.visibility = "hidden";
+		document.getElementById("burnleyShirt").style.visibility = "hidden";
+		document.getElementById("chelseaShirt").style.visibility = "hidden";
+		document.getElementById("crystalPalaceShirt").style.visibility = "hidden";
+		document.getElementById("evertonShirt").style.visibility = "hidden";
+		document.getElementById("huddersfieldShirt").style.visibility = "hidden";
+		document.getElementById("leicesterShirt").style.visibility = "hidden";
+		document.getElementById("liverpoolShirt").style.visibility = "hidden";
+		document.getElementById("manCityShirt").style.visibility = "visible";
+		document.getElementById("manUnitedShirt").style.visibility = "hidden";
+		document.getElementById("newcastleShirt").style.visibility = "hidden";
+		document.getElementById("southamptonShirt").style.visibility = "hidden";
+		document.getElementById("stokeShirt").style.visibility = "hidden";
+		document.getElementById("swanseaShirt").style.visibility = "hidden";
+		document.getElementById("tottenhamShirt").style.visibility = "hidden";
+		document.getElementById("watfordShirt").style.visibility = "hidden";
+		document.getElementById("westBromShirt").style.visibility = "hidden";
+		document.getElementById("westHamShirt").style.visibility = "hidden";
+	}
+	</script>
+	<script>
+	function showImageManUnited() {
+		document.getElementById("priceTotal").style.visibility = "visible";
+		document.getElementById("arsenalShirt").style.visibility = "hidden";
+		document.getElementById("brightonShirt").style.visibility = "hidden";
+		document.getElementById("bournemouthShirt").style.visibility = "hidden";
+		document.getElementById("burnleyShirt").style.visibility = "hidden";
+		document.getElementById("chelseaShirt").style.visibility = "hidden";
+		document.getElementById("crystalPalaceShirt").style.visibility = "hidden";
+		document.getElementById("evertonShirt").style.visibility = "hidden";
+		document.getElementById("huddersfieldShirt").style.visibility = "hidden";
+		document.getElementById("leicesterShirt").style.visibility = "hidden";
+		document.getElementById("liverpoolShirt").style.visibility = "hidden";
+		document.getElementById("manCityShirt").style.visibility = "hidden";
+		document.getElementById("manUnitedShirt").style.visibility = "visible";
+		document.getElementById("newcastleShirt").style.visibility = "hidden";
+		document.getElementById("southamptonShirt").style.visibility = "hidden";
+		document.getElementById("stokeShirt").style.visibility = "hidden";
+		document.getElementById("swanseaShirt").style.visibility = "hidden";
+		document.getElementById("tottenhamShirt").style.visibility = "hidden";
+		document.getElementById("watfordShirt").style.visibility = "hidden";
+		document.getElementById("westBromShirt").style.visibility = "hidden";
+		document.getElementById("westHamShirt").style.visibility = "hidden";
+	}
+	</script>
+	<script>
+	function showImageNewcastle() {
+		document.getElementById("priceTotal").style.visibility = "visible";
+		document.getElementById("arsenalShirt").style.visibility = "hidden";
+		document.getElementById("brightonShirt").style.visibility = "hidden";
+		document.getElementById("bournemouthShirt").style.visibility = "hidden";
+		document.getElementById("burnleyShirt").style.visibility = "hidden";
+		document.getElementById("chelseaShirt").style.visibility = "hidden";
+		document.getElementById("crystalPalaceShirt").style.visibility = "hidden";
+		document.getElementById("evertonShirt").style.visibility = "hidden";
+		document.getElementById("huddersfieldShirt").style.visibility = "hidden";
+		document.getElementById("leicesterShirt").style.visibility = "hidden";
+		document.getElementById("liverpoolShirt").style.visibility = "hidden";
+		document.getElementById("manCityShirt").style.visibility = "hidden";
+		document.getElementById("manUnitedShirt").style.visibility = "hidden";
+		document.getElementById("newcastleShirt").style.visibility = "visible";
+		document.getElementById("southamptonShirt").style.visibility = "hidden";
+		document.getElementById("stokeShirt").style.visibility = "hidden";
+		document.getElementById("swanseaShirt").style.visibility = "hidden";
+		document.getElementById("tottenhamShirt").style.visibility = "hidden";
+		document.getElementById("watfordShirt").style.visibility = "hidden";
+		document.getElementById("westBromShirt").style.visibility = "hidden";
+		document.getElementById("westHamShirt").style.visibility = "hidden";
+	}
+	</script>
+	<script>
+	function showImageSouthampton() {
+		document.getElementById("priceTotal").style.visibility = "visible";
+		document.getElementById("arsenalShirt").style.visibility = "hidden";
+		document.getElementById("brightonShirt").style.visibility = "hidden";
+		document.getElementById("bournemouthShirt").style.visibility = "hidden";
+		document.getElementById("burnleyShirt").style.visibility = "hidden";
+		document.getElementById("chelseaShirt").style.visibility = "hidden";
+		document.getElementById("crystalPalaceShirt").style.visibility = "hidden";
+		document.getElementById("evertonShirt").style.visibility = "hidden";
+		document.getElementById("huddersfieldShirt").style.visibility = "hidden";
+		document.getElementById("leicesterShirt").style.visibility = "hidden";
+		document.getElementById("liverpoolShirt").style.visibility = "hidden";
+		document.getElementById("manCityShirt").style.visibility = "hidden";
+		document.getElementById("manUnitedShirt").style.visibility = "hidden";
+		document.getElementById("newcastleShirt").style.visibility = "hidden";
+		document.getElementById("southamptonShirt").style.visibility = "visible";
+		document.getElementById("stokeShirt").style.visibility = "hidden";
+		document.getElementById("swanseaShirt").style.visibility = "hidden";
+		document.getElementById("tottenhamShirt").style.visibility = "hidden";
+		document.getElementById("watfordShirt").style.visibility = "hidden";
+		document.getElementById("westBromShirt").style.visibility = "hidden";
+		document.getElementById("westHamShirt").style.visibility = "hidden";
+	}
+	</script>
+	<script>
+	function showImageStoke() {
+		document.getElementById("priceTotal").style.visibility = "visible";
+		document.getElementById("arsenalShirt").style.visibility = "hidden";
+		document.getElementById("brightonShirt").style.visibility = "hidden";
+		document.getElementById("bournemouthShirt").style.visibility = "hidden";
+		document.getElementById("burnleyShirt").style.visibility = "hidden";
+		document.getElementById("chelseaShirt").style.visibility = "hidden";
+		document.getElementById("crystalPalaceShirt").style.visibility = "hidden";
+		document.getElementById("evertonShirt").style.visibility = "hidden";
+		document.getElementById("huddersfieldShirt").style.visibility = "hidden";
+		document.getElementById("leicesterShirt").style.visibility = "hidden";
+		document.getElementById("liverpoolShirt").style.visibility = "hidden";
+		document.getElementById("manCityShirt").style.visibility = "hidden";
+		document.getElementById("manUnitedShirt").style.visibility = "hidden";
+		document.getElementById("newcastleShirt").style.visibility = "hidden";
+		document.getElementById("southamptonShirt").style.visibility = "hidden";
+		document.getElementById("stokeShirt").style.visibility = "visible";
+		document.getElementById("swanseaShirt").style.visibility = "hidden";
+		document.getElementById("tottenhamShirt").style.visibility = "hidden";
+		document.getElementById("watfordShirt").style.visibility = "hidden";
+		document.getElementById("westBromShirt").style.visibility = "hidden";
+		document.getElementById("westHamShirt").style.visibility = "hidden";
+	}
+	</script>
+	<script>
+	function showImageSwansea() {
+		document.getElementById("priceTotal").style.visibility = "visible";
+		document.getElementById("arsenalShirt").style.visibility = "hidden";
+		document.getElementById("brightonShirt").style.visibility = "hidden";
+		document.getElementById("bournemouthShirt").style.visibility = "hidden";
+		document.getElementById("burnleyShirt").style.visibility = "hidden";
+		document.getElementById("chelseaShirt").style.visibility = "hidden";
+		document.getElementById("crystalPalaceShirt").style.visibility = "hidden";
+		document.getElementById("evertonShirt").style.visibility = "hidden";
+		document.getElementById("huddersfieldShirt").style.visibility = "hidden";
+		document.getElementById("leicesterShirt").style.visibility = "hidden";
+		document.getElementById("liverpoolShirt").style.visibility = "hidden";
+		document.getElementById("manCityShirt").style.visibility = "hidden";
+		document.getElementById("manUnitedShirt").style.visibility = "hidden";
+		document.getElementById("newcastleShirt").style.visibility = "hidden";
+		document.getElementById("southamptonShirt").style.visibility = "hidden";
+		document.getElementById("stokeShirt").style.visibility = "hidden";
+		document.getElementById("swanseaShirt").style.visibility = "visible";
+		document.getElementById("tottenhamShirt").style.visibility = "hidden";
+		document.getElementById("watfordShirt").style.visibility = "hidden";
+		document.getElementById("westBromShirt").style.visibility = "hidden";
+		document.getElementById("westHamShirt").style.visibility = "hidden";
+	}
+	</script>
+	<script>
+	function showImageTottenham() {
+		document.getElementById("priceTotal").style.visibility = "visible";
+		document.getElementById("arsenalShirt").style.visibility = "hidden";
+		document.getElementById("brightonShirt").style.visibility = "hidden";
+		document.getElementById("bournemouthShirt").style.visibility = "hidden";
+		document.getElementById("burnleyShirt").style.visibility = "hidden";
+		document.getElementById("chelseaShirt").style.visibility = "hidden";
+		document.getElementById("crystalPalaceShirt").style.visibility = "hidden";
+		document.getElementById("evertonShirt").style.visibility = "hidden";
+		document.getElementById("huddersfieldShirt").style.visibility = "hidden";
+		document.getElementById("leicesterShirt").style.visibility = "hidden";
+		document.getElementById("liverpoolShirt").style.visibility = "hidden";
+		document.getElementById("manCityShirt").style.visibility = "hidden";
+		document.getElementById("manUnitedShirt").style.visibility = "hidden";
+		document.getElementById("newcastleShirt").style.visibility = "hidden";
+		document.getElementById("southamptonShirt").style.visibility = "hidden";
+		document.getElementById("stokeShirt").style.visibility = "hidden";
+		document.getElementById("swanseaShirt").style.visibility = "hidden";
+		document.getElementById("tottenhamShirt").style.visibility = "visible";
+		document.getElementById("watfordShirt").style.visibility = "hidden";
+		document.getElementById("westBromShirt").style.visibility = "hidden";
+		document.getElementById("westHamShirt").style.visibility = "hidden";
+	}
+	</script>
+	<script>
+	function showImageWatford() {
+		document.getElementById("priceTotal").style.visibility = "visible";
+		document.getElementById("arsenalShirt").style.visibility = "hidden";
+		document.getElementById("brightonShirt").style.visibility = "hidden";
+		document.getElementById("bournemouthShirt").style.visibility = "hidden";
+		document.getElementById("burnleyShirt").style.visibility = "hidden";
+		document.getElementById("chelseaShirt").style.visibility = "hidden";
+		document.getElementById("crystalPalaceShirt").style.visibility = "hidden";
+		document.getElementById("evertonShirt").style.visibility = "hidden";
+		document.getElementById("huddersfieldShirt").style.visibility = "hidden";
+		document.getElementById("leicesterShirt").style.visibility = "hidden";
+		document.getElementById("liverpoolShirt").style.visibility = "hidden";
+		document.getElementById("manCityShirt").style.visibility = "hidden";
+		document.getElementById("manUnitedShirt").style.visibility = "hidden";
+		document.getElementById("newcastleShirt").style.visibility = "hidden";
+		document.getElementById("southamptonShirt").style.visibility = "hidden";
+		document.getElementById("stokeShirt").style.visibility = "hidden";
+		document.getElementById("swanseaShirt").style.visibility = "hidden";
+		document.getElementById("tottenhamShirt").style.visibility = "hidden";
+		document.getElementById("watfordShirt").style.visibility = "visible";
+		document.getElementById("westBromShirt").style.visibility = "hidden";
+		document.getElementById("westHamShirt").style.visibility = "hidden";
+	}
+	</script>
+	<script>
+	function showImageWestBrom() {
+		document.getElementById("priceTotal").style.visibility = "visible";
+		document.getElementById("arsenalShirt").style.visibility = "hidden";
+		document.getElementById("brightonShirt").style.visibility = "hidden";
+		document.getElementById("bournemouthShirt").style.visibility = "hidden";
+		document.getElementById("burnleyShirt").style.visibility = "hidden";
+		document.getElementById("chelseaShirt").style.visibility = "hidden";
+		document.getElementById("crystalPalaceShirt").style.visibility = "hidden";
+		document.getElementById("evertonShirt").style.visibility = "hidden";
+		document.getElementById("huddersfieldShirt").style.visibility = "hidden";
+		document.getElementById("leicesterShirt").style.visibility = "hidden";
+		document.getElementById("liverpoolShirt").style.visibility = "hidden";
+		document.getElementById("manCityShirt").style.visibility = "hidden";
+		document.getElementById("manUnitedShirt").style.visibility = "hidden";
+		document.getElementById("newcastleShirt").style.visibility = "hidden";
+		document.getElementById("southamptonShirt").style.visibility = "hidden";
+		document.getElementById("stokeShirt").style.visibility = "hidden";
+		document.getElementById("swanseaShirt").style.visibility = "hidden";
+		document.getElementById("tottenhamShirt").style.visibility = "hidden";
+		document.getElementById("watfordShirt").style.visibility = "hidden";
+		document.getElementById("westBromShirt").style.visibility = "visible";
+		document.getElementById("westHamShirt").style.visibility = "hidden";
+	}
+	</script>
+	<script>
+	function showImageWestHam() {
+		document.getElementById("priceTotal").style.visibility = "visible";
+		document.getElementById("arsenalShirt").style.visibility = "hidden";
+		document.getElementById("brightonShirt").style.visibility = "hidden";
+		document.getElementById("bournemouthShirt").style.visibility = "hidden";
+		document.getElementById("burnleyShirt").style.visibility = "hidden";
+		document.getElementById("chelseaShirt").style.visibility = "hidden";
+		document.getElementById("crystalPalaceShirt").style.visibility = "hidden";
+		document.getElementById("evertonShirt").style.visibility = "hidden";
+		document.getElementById("huddersfieldShirt").style.visibility = "hidden";
+		document.getElementById("leicesterShirt").style.visibility = "hidden";
+		document.getElementById("liverpoolShirt").style.visibility = "hidden";
+		document.getElementById("manCityShirt").style.visibility = "hidden";
+		document.getElementById("manUnitedShirt").style.visibility = "hidden";
+		document.getElementById("newcastleShirt").style.visibility = "hidden";
+		document.getElementById("southamptonShirt").style.visibility = "hidden";
+		document.getElementById("stokeShirt").style.visibility = "hidden";
+		document.getElementById("swanseaShirt").style.visibility = "hidden";
+		document.getElementById("tottenhamShirt").style.visibility = "hidden";
+		document.getElementById("watfordShirt").style.visibility = "hidden";
+		document.getElementById("westBromShirt").style.visibility = "hidden";
+		document.getElementById("westHamShirt").style.visibility = "visible";
+	}
+	</script>
+</body>

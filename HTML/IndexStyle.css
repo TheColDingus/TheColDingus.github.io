@@ -1,0 +1,312 @@
+body{
+	background-color: #792464;
+	margin: 0;
+	padding: 0;
+	text-align: centre;
+	font-family: Helvetica, Arial, Gotham;
+}
+
+#header{
+	position: absolute;
+	text-align: centre;
+	padding: 10;
+	color: white;
+	top: 2.2rem;
+	left: 15rem;
+}
+
+#logo{
+	position: absolute;
+	width: 15%;
+	top: 2rem;
+	left: 1.5rem;
+}
+
+#Demo{
+	position: absolute;
+	top: 15rem;
+}
+
+.leagueStatistics{
+	position: absolute;
+	right: 8rem;
+	top: 20rem;
+	color: white;
+}	
+	
+#statisticsImage{
+	position: absolute;
+	width: 12%;
+	height: 20%;
+	top: 22rem;
+	right: 16rem;
+	border-color: #e73863;
+	border-style: solid;
+	border-width: 0.5rem;
+	border-radius: 20%;
+}
+
+#statisticsText{
+	position: absolute;
+	top: 23rem;
+	right: -2.2rem;
+	margin-right: 3rem;
+	color: white;
+}
+
+#statisticsText u{
+	color: white;
+}
+
+#boredomButton {
+	position: absolute;
+	right: 7rem;
+	top: 36rem;
+	background-color: #e73863;
+	border-color: #e73863;
+}
+
+#result {
+	position: absolute;
+	right: 7rem;
+	top: 38rem;
+	color: white;
+}
+
+.shirts{
+	position: absolute;
+	right: 7rem;
+	top: 45rem;
+	color: white;
+}	
+	
+#shirtsImage{
+	position: absolute;
+	width: 12%;
+	height: 20%;
+	top: 47rem;
+	right: 16rem;
+	border-color: #e73863;
+	border-style: solid;
+	border-width: 0.5rem;
+	border-radius: 20%;
+}
+
+#shirtText{
+	position: absolute;
+	top: 48rem;
+	right: -0.5rem;
+	margin-right: 3rem;
+	color: white;
+}
+
+#shirtText u{
+	color: white;
+}
+
+#Arsenal{
+	Position: absolute;
+	width: 17%;
+	height: 17%;
+	top: 70rem;
+}
+
+
+#Bournemouth{
+	Position: absolute;
+	width: 7%;
+	height: 17%;
+	top: 70rem;
+	left: 12rem;
+}
+
+#Brighton{
+	Position: absolute;
+	width: 8%;
+	height: 17%;
+	top: 70rem;
+	left: 19rem;
+}
+
+#Burnley{
+	Position: absolute;
+	width: 8%;
+	height: 17%;
+	top: 70rem;
+	left: 26rem;
+}
+
+#Chelsea{
+	Position: absolute;
+	width: 8%;
+	height: 17%;
+	top: 70rem;
+	left: 33rem;
+}
+
+#CrystalPalace{
+	Position: absolute;
+	width: 8%;
+	height: 17%;
+	top: 70rem;
+	left: 41rem;
+}
+
+#Everton{
+	Position: absolute;
+	width: 8%;
+	height: 17%;
+	top: 70rem;
+	left: 49rem;
+}
+
+#Huddersfield{
+	Position: absolute;
+	width: 8%;
+	height: 17%;
+	top: 70rem;
+	left: 57rem;
+}
+
+#Leicester{
+	Position: absolute;
+	width: 8%;
+	height: 17%;
+	top: 70rem;
+	left: 64.5rem;
+}
+
+#Liverpool{
+	Position: absolute;
+	width: 8%;
+	height: 17%;
+	top: 70rem;
+	left: 72rem;
+}
+
+#ManCity{
+	Position: absolute;
+	width: 8%;
+	height: 17%;
+	top: 77.5rem;
+	left: 3.8rem;
+}
+
+#ManUnited{
+	Position: absolute;
+	width: 7%;
+	height: 17%;
+	top: 77.5rem;
+	left: 12rem;
+}
+
+#Newcastle{
+	Position: absolute;
+	width: 7%;
+	height: 17%;
+	top: 77.5rem;
+	left: 19.3rem;
+}
+
+#Southampton{
+	Position: absolute;
+	width: 7%;
+	height: 17%;
+	top: 77.5rem;
+	left: 26.5rem;
+}
+
+#Stoke{
+	Position: absolute;
+	width: 7%;
+	height: 17%;
+	top: 77.5rem;
+	left: 33.4rem;
+}
+
+#Swansea{
+	Position: absolute;
+	width: 8%;
+	height: 17%;
+	top: 77.5rem;
+	left: 41rem;
+}
+
+#Tottenham{
+	Position: absolute;
+	width: 8%;
+	height: 17%;
+	top: 77.5rem;
+	left: 49rem;
+}
+
+#Watford{
+	Position: absolute;
+	width: 8%;
+	height: 17%;
+	top: 77.5rem;
+	left: 57.2rem;
+	margin-bottom: 5rem;
+}
+
+#WestBrom{
+	Position: absolute;
+	width: 8%;
+	height: 17%;
+	top: 77.5rem;
+	left: 64.5rem;
+}
+
+#WestHam{
+	Position: absolute;
+	width: 10%;
+	height: 20%;
+	top: 77.5rem;
+	left: 71.3rem;
+}
+
+
+table {
+	position: absolute;
+	width: 60%;
+	margin-top: 18.4rem;
+	margin-left: 1rem;
+	background-color: white;	
+}
+
+table, th {
+
+	border-color: #e73863;
+	color: white;
+}
+
+th {
+
+	padding: 5px;
+	text-align: left;
+	background-color: #e73863;
+}
+
+
+#Canvas1 {
+	position: absolute;
+	background-color: #e73863;
+	width: 62rem;
+	height: 8rem;
+	border-radius: 20%;
+	left: 1rem;
+	top: 1rem;
+	border-color: white;
+	border-width: 5px;
+}
+
+#Canvas2 {
+	position: absolute;
+	background-color: #e73863;
+	width: 82rem;
+	height: 20rem;
+	border-radius: 20%;
+	left: 1rem;
+	top: 67.5rem;
+	border-color: white;
+}
